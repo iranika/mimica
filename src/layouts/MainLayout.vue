@@ -17,7 +17,7 @@
         <q-separator></q-separator>
         <LoginButton></LoginButton>
         <q-avatar>
-          <img src="https://pbs.twimg.com/profile_images/1422306322804994067/583UkI8q_400x400.jpg" >
+          <img src="https://pbs.twimg.com/profile_images/1458674689677885442/q56FjquB_400x400.jpg" >
         </q-avatar>
       </q-toolbar>
       <q-tabs v-model="tab" align="left">
@@ -40,13 +40,13 @@
       <q-scroll-area class="fit">
         <q-list padding>
           <template v-for="list in essentialLinks" :key="list">
-            <q-item clickable v-ripple>
+            <q-item clickable v-ripple :to="list.link" :disable="list.disable">
               <q-item-section avatar>
                 <q-icon :name="list.icon" />
               </q-item-section>
 
               <q-item-section>
-                {{ $t(list.title) }}
+                {{ list.disable ? $t(list.title) + " : WIP" : $t(list.title) }}
               </q-item-section>
             </q-item>  
           </template>
@@ -82,31 +82,46 @@ const linksList = [
     title: 'home',
     caption: 'quasar.dev',
     icon: 'home',
-    link: 'https://quasar.dev'
+    link: '/',
+    disable: false
+  },
+  {
+    title: 'Mixn' ,
+    caption: 'github.com/quasarframework',
+    icon: 'create',
+    link: 'mixn',
+    disable: false
   },
   {
     title: 'createDeck' ,
     caption: 'github.com/quasarframework',
     icon: 'create',
-    link: 'https://github.com/quasarframework'
+    link: 'create-deck',
+    disable: true
   },
   {
     title: 'myDecks' ,
     caption: 'github.com/quasarframework',
     icon: 'book',
-    link: 'https://github.com/quasarframework'
+    link: 'mydeck',
+    disable: true
+
   },
   {
     title: 'favorite',
     caption: 'chat.quasar.dev',
     icon: 'star',
-    link: 'https://chat.quasar.dev'
+    link: 'favorite',
+    disable: true
+
   },
   {
     title: 'help',
     caption: 'chat.quasar.dev',
     icon: 'help',
-    link: 'https://chat.quasar.dev'
+    link: 'help',
+    disable: true
+
   },
 ];
 

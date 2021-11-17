@@ -7,5 +7,6 @@ export default {
     home: 'ホーム',
     myDecks: 'マイデッキ',
     favorite: 'お気に入り',
-    collapse: '折りたたむ'
+    collapse: '折りたたむ',
+    Mixn: "MixN"
 };

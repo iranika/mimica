@@ -17,20 +17,30 @@
 </template>
 
 <script>
-//import { ref, watch } from 'vue'
+import { ref, watch, watchEffect } from 'vue'
+import { langKey } from 'boot/i18n';
 import { useI18n } from 'vue-i18n'
+//import { LocalStorage, SessionStorage } from 'quasar';
 
 export default {
   setup () {
     const { locale } = useI18n({ useScope: 'global' })
+    watch(
+      ()=> locale,
+      (locale)=>{
+        console.log(locale.value)
+        globalThis.localStorage.setItem(langKey, locale.value)
+      },
+      { deep: true }
+    )
     return {
       locale,
       localeOptions: [
-        { value: 'ja', label: '日本語' },
+        { value: 'ja-JP', label: '日本語' },
         { value: 'en-US', label: 'English' },
       ]
     }
-  }
+  },
 }
 </script>
 
