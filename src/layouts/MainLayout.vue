@@ -15,6 +15,7 @@
         </q-toolbar-title>
         <LanguageSwitch></LanguageSwitch>
         <q-separator></q-separator>
+        <LoginButton></LoginButton>
         <q-avatar>
           <img src="https://pbs.twimg.com/profile_images/1422306322804994067/583UkI8q_400x400.jpg" >
         </q-avatar>
@@ -111,13 +112,15 @@ const linksList = [
 
 import { defineComponent, ref } from 'vue'
 import LanguageSwitch from 'components/LanguageSwitch.vue';
+import LoginButton from 'components/LoginButton.vue';
 
 export default defineComponent({
   name: 'MainLayout',
 
   components: {
     //EssentialLink
-    LanguageSwitch
+    LanguageSwitch,
+    LoginButton
   },
 
   setup () {

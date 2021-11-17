@@ -33,3 +33,6 @@ yarn-error.log*
 *.sln
 .env.local
 yarn.lock
+
+.env
+src/firebase/cred.ts

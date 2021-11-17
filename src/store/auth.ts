@@ -1,52 +1,73 @@
-import { inject, InjectionKey, reactive } from 'vue';
+import {reactive} from 'vue';
+import firebase from '../firebase/firebase';
+import { getAuth, updateProfile, onAuthStateChanged, User, TwitterAuthProvider, signInWithRedirect } from 'firebase/auth';
+//import Component from 'vue-class-component';
 
-type DummyUser = {
-  displayName: string;
-  photoURL: string;
+interface UserProfile{
+    displayName: string,
+    photoURL: string,
+    isLogin: boolean
 }
 
-const dummyUser: DummyUser = {
-  displayName: 'test',
-  photoURL: 'https://pbs.twimg.com/profile_images/1308010958862905345/-SGZioPb_400x400.jpg'
-}
 
-const authStore = () => {
-  console.log('init authStore')
-  const state = reactive({ isLoggedin: false, displayName: '', photoURL: ''})
-  const setUser = (user: DummyUser | null) => {
-    state.isLoggedin = !!user
-    if (user) {
-      state.displayName = user.displayName ?? ''
-      state.photoURL = user.photoURL ?? ''
+export class AuthStore {
+    private static instance: AuthStore;
+
+    public state = reactive({
+        isLoggedin: false,
+        displayName: '',
+        photoURL: ''
+    })
+    public static getInstance():AuthStore{
+        if (!this.instance){
+            // eslint-disable-next-line @typescript-eslint/unbound-method
+            this.instance = new AuthStore(AuthStore.getInstance);
+        }
+        return this.instance;
     }
-  }
-  const signin = () => {
-    setUser(dummyUser)
-  }
-  const signout = () => setUser(null)
-  const updateUser = (input: DummyUser) => {
-    setUser(input)
-  }
+    public signin(){
+        const provider = new TwitterAuthProvider();
+        const auth = getAuth(firebase);
+        void signInWithRedirect(auth, provider).then(result => {
+            console.log('signin', result);
+        })
+    }
+    public signout(){
+        void getAuth(firebase).signOut();
+    }
+    public setUser(user: UserProfile | User){
+        this.state.isLoggedin = !!user;
+        if (user){
+            this.state.displayName = user.displayName ?? ''
+            this.state.photoURL = user.photoURL ?? ''    
+        }
+        console.log(user)
+    }
+    public updateUser(user: UserProfile){
+        const auth = getAuth(firebase);
+        if (auth.currentUser != null){
+            void updateProfile(auth.currentUser, user).then(()=>{
+                this.setUser(user)
+            })
+        }
+    }
 
-  return {
-    state,
-    setUser,
-    signin,
-    signout,
-    updateUser,
-  };
+    constructor(caller: ()=>AuthStore){
+        if (caller == AuthStore.getInstance){
+            console.log('create instance of AuthStore');
+            const auth = getAuth(firebase);
+            onAuthStateChanged(auth, user=> {
+                if (user != null){
+                    this.setUser(user);
+                }
+            });
+        }
+        else if (AuthStore.instance){
+            throw new Error('Already created instance of AuthStore. You should use AuthStore.getInstance().')
+        }else{
+            throw new Error('Constractor args valided illegal. You should use AuthStore.getInstance()')
+        }
+    }
+
 }
 
-export default authStore
-
-export type AuthStore = ReturnType<typeof authStore>;
-
-export const authStoreKey: InjectionKey<AuthStore> = Symbol('authStore');
-
-export const useAuthStore = () => {
-  const store = inject(authStoreKey);
-  if (!store) {
-    throw new Error('authstore is not provided');
-  }
-  return store;
-}

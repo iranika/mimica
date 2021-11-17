@@ -1,25 +1,14 @@
-import firebase from 'firebase/app';
+import {initializeApp, FirebaseOptions} from 'firebase/app';
 import { getFirestore } from 'firebase/firestore'
-import 'firebase/auth';
 import { FirestoreSimple } from '@firestore-simple/web';
-import { Credentials } from './types/credentials';
+import { cred } from "./cred";
 
-export const credentials: Credentials = {
-    config: {
-        apiKey: <string> process.env.VUE_APP_FIREBASE_API_KEY,
-        authDomain: <string> process.env.VUE_APP_FIREBASE_AUTH_DOMAIN,
-        storageBucket: <string> process.env.VUE_APP_FIREBASE_STORAGE_BUCKET,
-        databaseURL: <string> process.env.VUE_APP_FIREBASE_DB_URL,
-        projectId: <string> process.env.VUE_APP_FIREBASE_PROJECT_ID,
-        messagingSenderId: <string> process.env.VUE_APP_FIREBASE_MESSAGING_SENDER_ID
-    }
-}
+export const credentials: FirebaseOptions = cred;
+
 
 //console.log(credentials.config);
-if (!firebase.getApps.length){
-    firebase.initializeApp(credentials.config)
-}
+const firebase = initializeApp(credentials);
 
-export const firestoreSimple = new FirestoreSimple(getFirestore())
+export const firestoreSimple = new FirestoreSimple(getFirestore(firebase))
 
 export default firebase;

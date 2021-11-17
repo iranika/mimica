@@ -4,5 +4,11 @@
 export default {
   failed: 'Action failed',
   success: 'Action was successful',
-  collapse: 'collapse'
+  collapse: 'collapse',
+  home: 'Home',
+  createDeck: 'Create Deck',
+  myDecks: 'My Decks',
+  favorite: 'Favarite',
+  help: 'Help',
+
 };
