@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
-    "deploy": "gh-pages -d dist/spa"
+    "deploy": "gh-pages -d dist/spa",
+    "bd": "quasar build && yarn deploy"
   },
   "dependencies": {
     "@firebase/firestore": "^3.1.0",
@@ -20,6 +21,8 @@
     "dotenv": "^10.0.0",
     "firebase": "^9.1.1",
     "kuromoji": "^0.1.2",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
     "quasar": "^2.0.0",
     "vue-i18n": "^9.0.0",
     "vuex": "^4.0.1"

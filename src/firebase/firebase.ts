@@ -1,7 +1,7 @@
 import {initializeApp, FirebaseOptions} from 'firebase/app';
 import { getFirestore } from 'firebase/firestore'
 import { FirestoreSimple } from '@firestore-simple/web';
-import { cred } from "./cred";
+import { cred } from './cred';
 
 export const credentials: FirebaseOptions = cred;
 

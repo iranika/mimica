@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { ref, watch, watchEffect } from 'vue'
+import { watch } from 'vue'
 import { langKey } from 'boot/i18n';
 import { useI18n } from 'vue-i18n'
 //import { LocalStorage, SessionStorage } from 'quasar';

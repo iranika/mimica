@@ -10,5 +10,5 @@ export default {
   myDecks: 'My Decks',
   favorite: 'Favarite',
   help: 'Help',
-  Mixn: "MixN",
+  Mixn: 'MixN',
 };

@@ -15,10 +15,12 @@
         </q-toolbar-title>
         <LanguageSwitch></LanguageSwitch>
         <q-separator></q-separator>
-        <LoginButton></LoginButton>
+        <!-- NOTE: WIP
+        <LoginButton ></LoginButton>
         <q-avatar>
           <img src="https://pbs.twimg.com/profile_images/1458674689677885442/q56FjquB_400x400.jpg" >
         </q-avatar>
+        -->
       </q-toolbar>
       <q-tabs v-model="tab" align="left">
         <q-tab name="dlsite" label="dlsite" />
@@ -77,6 +79,8 @@
 
 <script lang="ts">
 //import EssentialLink from 'components/EssentialLink.vue'
+
+
 const linksList = [
   {
     title: 'home',
@@ -125,7 +129,7 @@ const linksList = [
   },
 ];
 
-import { defineComponent, ref } from 'vue'
+import { defineComponent, ref, watch } from 'vue'
 import LanguageSwitch from 'components/LanguageSwitch.vue';
 import LoginButton from 'components/LoginButton.vue';
 
@@ -135,15 +139,24 @@ export default defineComponent({
   components: {
     //EssentialLink
     LanguageSwitch,
+    // eslint-disable-next-line vue/no-unused-components
     LoginButton
   },
 
   setup () {
     const leftDrawerOpen = ref(false)
-    const miniState = ref(false)
+    const miniState = ref(Boolean(window.localStorage.getItem('miniState')) || false)
     const tab = ref()
     const footnav = ref()
     
+    watch(
+      ()=>miniState,
+      (miniState)=>{
+        window.localStorage.setItem('miniState', miniState.value.toString())
+      },
+      { deep: true }
+    )
+
     return {
       essentialLinks: linksList,
       leftDrawerOpen,

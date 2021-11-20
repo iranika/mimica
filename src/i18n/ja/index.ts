@@ -8,5 +8,7 @@ export default {
     myDecks: 'マイデッキ',
     favorite: 'お気に入り',
     collapse: '折りたたむ',
-    Mixn: "MixN"
+    createDeck: 'デッキの作成',
+    help: 'ヘルプ',
+    Mixn: 'MixN',
 };

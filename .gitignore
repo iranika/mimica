@@ -36,3 +36,5 @@ yarn.lock
 
 .env
 src/firebase/cred.ts
+package-lock.json
+yarn.lock
