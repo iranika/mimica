@@ -16,6 +16,8 @@
     "@firestore-simple/web": "^7.0.8",
     "@quasar/cli": "^1.2.2",
     "@quasar/extras": "^1.0.0",
+    "@stripe/stripe-js": "^1.21.1",
+    "@vue-stripe/vue-stripe": "^4.2.9",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "dotenv": "^10.0.0",
@@ -40,7 +42,8 @@
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^7.0.0",
     "gh-pages": "^3.2.3",
-    "push-dir": "^0.4.1"
+    "push-dir": "^0.4.1",
+    "raw-loader": "^4.0.2"
   },
   "browserslist": [
     "last 10 Chrome versions",

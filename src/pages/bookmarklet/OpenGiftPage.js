@@ -1,0 +1,1 @@
+javascript:(function(e){var href = "https://www.dlsite.com/home/mypage/buy/dlgift/product/=/product_id/"+e(location.href.replace(/.*\//, "").replace(/\.html.*$/, ""))+"/"; window.open(href,'_blank');})(encodeURIComponent);

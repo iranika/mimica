@@ -1,18 +1,10 @@
 import { boot } from 'quasar/wrappers';
 import { createI18n } from 'vue-i18n';
-import { LocalStorage } from 'quasar'
-
 import messages from 'src/i18n';
+import { LocalstoregeStore} from 'src/store/localstrageStore';
 
-export const langKey = 'DefaultLanguage';
-
-const defaultLang = LocalStorage.has(langKey) ? 
-  <string>localStorage.getItem(langKey) 
-  : 'ja-JP';
-
-console.log(defaultLang)
 const i18n = createI18n({
-  locale: defaultLang,
+  locale: LocalstoregeStore.getInstance.db.defaultLocale,
   messages,
 });
 

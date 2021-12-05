@@ -18,18 +18,19 @@
 
 <script>
 import { watch } from 'vue'
-import { langKey } from 'boot/i18n';
 import { useI18n } from 'vue-i18n'
+import { LocalstoregeStore } from 'src/store/localstrageStore';
 //import { LocalStorage, SessionStorage } from 'quasar';
 
 export default {
   setup () {
     const { locale } = useI18n({ useScope: 'global' })
+    
     watch(
       ()=> locale,
       (locale)=>{
-        console.log(locale.value)
-        globalThis.localStorage.setItem(langKey, locale.value)
+        console.info('locale was changed.',locale.value)
+        LocalstoregeStore.getInstance.setDefaultLocale(locale.value)
       },
       { deep: true }
     )

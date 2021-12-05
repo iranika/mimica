@@ -10,5 +10,6 @@ export default {
     collapse: '折りたたむ',
     createDeck: 'デッキの作成',
     help: 'ヘルプ',
-    Mixn: 'MixN',
+    Mixn: 'トム×ブラウン',
+    Bookmarklet: 'ブックマークレットBOX'
 };

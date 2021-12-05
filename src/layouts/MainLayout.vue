@@ -23,8 +23,8 @@
         -->
       </q-toolbar>
       <q-tabs v-model="tab" align="left">
-        <q-tab name="dlsite" label="dlsite" />
-        <q-tab name="videos" label="iranika" />
+        <q-route-tab name="dlsite" label="dlsite" @click="openURL('https://www.dlsite.com/home/dlaf/=/aid/mimica/url/https%3A%2F%2Fwww.dlsite.com%2Fhome%2Fcircle%2Fprofile%2F%3D%2Fmaker_id%2FRG34004.html%2F%3Futm_medium%3Daffiliate%26utm_campaign%3Dbnlink%26utm_content%3Dtext')" />
+        <q-route-tab name="iranika" label="iranika" @click="openURL('https://twitter.com/happy_packet')" />
       </q-tabs>
     </q-header>
 
@@ -32,8 +32,8 @@
       v-model="leftDrawerOpen"
       show-if-above
 
-      :mini="!leftDrawerOpen || miniState"
-      @click.capture="miniState"
+      :mini="!leftDrawerOpen || db.miniState"
+      @click.capture="db.miniState"
 
       :breakpoint="500"
       bordered
@@ -52,9 +52,9 @@
               </q-item-section>
             </q-item>  
           </template>
-          <q-item clickable v-ripple @click="miniState = !miniState">
+          <q-item clickable v-ripple @click="toggleMiniState" class="mobile-hide">
             <q-item-section avatar>
-              <q-icon :name="miniState ? 'chevron_right' : 'chevron_left'" />
+              <q-icon :name="db.miniState ? 'chevron_right' : 'chevron_left'" />
             </q-item-section>
 
             <q-item-section>
@@ -66,9 +66,9 @@
     </q-drawer>
     <q-footer bordered class="bg-white text-primary mobile-only">
       <q-tabs no-caps active-color="primary" indicator-color="transparent" class="text-grey" v-model="footnav">
-        <q-tab name="home" :label="$t('home')" />
-        <q-tab name="myDecks" :label="$t('myDecks')" />
-        <q-tab name="favorite" :label="$t('favorite')" />
+        <q-route-tab name="home" :label="$t('home')" to="/" />
+        <q-route-tab name="mixn" :label="$t('Mixn')" to="/mixn" />
+        <q-route-tab name="bml" label="BML" to="/bookmarklet" />
       </q-tabs>
     </q-footer>
     <q-page-container>
@@ -79,7 +79,7 @@
 
 <script lang="ts">
 //import EssentialLink from 'components/EssentialLink.vue'
-
+import { openURL } from 'quasar';
 
 const linksList = [
   {
@@ -91,9 +91,16 @@ const linksList = [
   },
   {
     title: 'Mixn' ,
-    caption: 'github.com/quasarframework',
+    caption: '',
     icon: 'create',
     link: 'mixn',
+    disable: false
+  },
+  {
+    title: 'Bookmarklet' ,
+    caption: 'Bookmarklet',
+    icon: 'bookmark',
+    link: 'bookmarklet',
     disable: false
   },
   {
@@ -129,9 +136,10 @@ const linksList = [
   },
 ];
 
-import { defineComponent, ref, watch } from 'vue'
+import { defineComponent, ref, } from 'vue'
 import LanguageSwitch from 'components/LanguageSwitch.vue';
 import LoginButton from 'components/LoginButton.vue';
+import { LocalstoregeStore } from 'src/store/localstrageStore';
 
 export default defineComponent({
   name: 'MainLayout',
@@ -145,26 +153,25 @@ export default defineComponent({
 
   setup () {
     const leftDrawerOpen = ref(false)
-    const miniState = ref(Boolean(window.localStorage.getItem('miniState')) || false)
+    const db = LocalstoregeStore.getInstance.db
     const tab = ref()
     const footnav = ref()
     
-    watch(
-      ()=>miniState,
-      (miniState)=>{
-        window.localStorage.setItem('miniState', miniState.value.toString())
-      },
-      { deep: true }
-    )
-
     return {
+      openURL,
       essentialLinks: linksList,
       leftDrawerOpen,
-      miniState,
+      db,
       tab,
       footnav,
       toggleLeftDrawer () {
-        miniState.value = !miniState.value
+        if (!leftDrawerOpen.value){
+          LocalstoregeStore.getInstance.setMiniState(!db.miniState)
+        }
+        leftDrawerOpen.value = !leftDrawerOpen.value
+      },
+      toggleMiniState(){
+        LocalstoregeStore.getInstance.setMiniState(!db.miniState)
       }
     }
   }
