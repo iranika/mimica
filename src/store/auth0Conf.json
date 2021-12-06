@@ -1,0 +1,5 @@
+{
+    "domain": "nika.jp.auth0.com",
+    "client_id": "tCb5hh5RpeQ7ehN1J2XYWMzCyxzKCtDQ",
+    "audience": "https://apollo-server-prisma.herokuapp.com/"
+}

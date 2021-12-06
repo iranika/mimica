@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    <q-card class="bookmarklet-card">
+    <q-card class="bookmarklet-card" flat>
       <q-card-section style="">
         <div class="text-h4" style="margin: 10px auto 10px auto;">{{$t('Bookmarklet')}}</div>
         <div>
@@ -63,6 +63,7 @@
 .bookmarklet-card{
   width:90%;
   max-width: 800px;
+  margin: 20px 0 0 0;
 }
 .bml-field{
   white-space: pre;
@@ -73,10 +74,10 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import BookmarkletComponent from 'src/components/BookmarkletComponent.vue';
-import BrowseNowText from '!!raw-loader!./bookmarklet/BrowseNowRIP.js';
-import SearchBooth from '!!raw-loader!./bookmarklet/SearchBooth.js';
-import SearchFanza from '!!raw-loader!./bookmarklet/SearchFanza.js';
-import OpenGiftPage from '!!raw-loader!./bookmarklet/OpenGiftPage.js';
+import BrowseNowText from '!!raw-loader!./bookmarklet/BrowseNowRIP.txt';
+import SearchBooth from '!!raw-loader!./bookmarklet/SearchBooth.txt';
+import SearchFanza from '!!raw-loader!./bookmarklet/SearchFanza.txt';
+import OpenGiftPage from '!!raw-loader!./bookmarklet/OpenGiftPage.txt';
 
 
 export default defineComponent({

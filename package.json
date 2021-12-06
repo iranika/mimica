@@ -12,6 +12,7 @@
     "bd": "quasar build && yarn deploy"
   },
   "dependencies": {
+    "@auth0/auth0-spa-js": "^1.19.3",
     "@firebase/firestore": "^3.1.0",
     "@firestore-simple/web": "^7.0.8",
     "@quasar/cli": "^1.2.2",

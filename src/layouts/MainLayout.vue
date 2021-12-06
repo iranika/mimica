@@ -1,6 +1,6 @@
 <template>
   <q-layout view="hHh Lpr lFf">
-    <q-header>
+    <q-header class="bg-cyan">
       <q-toolbar>
         <q-btn
           flat
@@ -15,12 +15,7 @@
         </q-toolbar-title>
         <LanguageSwitch></LanguageSwitch>
         <q-separator></q-separator>
-        <!-- NOTE: WIP
         <LoginButton ></LoginButton>
-        <q-avatar>
-          <img src="https://pbs.twimg.com/profile_images/1458674689677885442/q56FjquB_400x400.jpg" >
-        </q-avatar>
-        -->
       </q-toolbar>
       <q-tabs v-model="tab" align="left">
         <q-route-tab name="dlsite" label="dlsite" @click="openURL('https://www.dlsite.com/home/dlaf/=/aid/mimica/url/https%3A%2F%2Fwww.dlsite.com%2Fhome%2Fcircle%2Fprofile%2F%3D%2Fmaker_id%2FRG34004.html%2F%3Futm_medium%3Daffiliate%26utm_campaign%3Dbnlink%26utm_content%3Dtext')" />
