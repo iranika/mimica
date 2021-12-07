@@ -1,7 +1,6 @@
 import {reactive} from 'vue';
-import { Auth0Client } from '@auth0/auth0-spa-js';
+import createAuth0Client from '@auth0/auth0-spa-js';
 import auth0Config from 'src/store/auth0Conf.json';
-//import Component from 'vue-class-component';
 
 interface UserProfile{
     displayName: string,
@@ -18,8 +17,6 @@ export class AuthStore {
         photoURL: ''
     })
 
-    private auth0 = new Auth0Client(auth0Config);
-
     public static getInstance():AuthStore{
         if (!this.instance){
             // eslint-disable-next-line @typescript-eslint/unbound-method
@@ -27,9 +24,12 @@ export class AuthStore {
         }
         return this.instance;
     }
+    private Iauth0 = createAuth0Client(auth0Config);
+
     public async setAuth(){
-        if (await this.auth0.isAuthenticated()){
-            const user = await this.auth0.getUser();
+        const auth0 = await this.Iauth0;
+        if (await auth0.isAuthenticated()){
+            const user = await auth0.getUser();
             this.state.isLogin = true;
             this.state.displayName = user?.name ?? 'nameless';
             this.state.photoURL = user?.picture ?? '/img/no_img.jpg';
@@ -38,9 +38,11 @@ export class AuthStore {
         }
     }
     public async signin(){
-        await this.auth0.loginWithPopup();
+        const auth0 = await this.Iauth0;
+        await auth0.loginWithPopup();
         await this.setAuth();
     }
+    
     public signout(){
         //
     }
@@ -48,6 +50,7 @@ export class AuthStore {
     constructor(caller: ()=>AuthStore){
         if (caller == AuthStore.getInstance){
             console.log('create instance of AuthStore');
+            
             void this.setAuth().then(()=>{
                 console.log(this.state)
             })
