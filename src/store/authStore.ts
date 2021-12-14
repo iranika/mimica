@@ -28,6 +28,7 @@ export class AuthStore {
 
     public async setAuth(){
         const auth0 = await this.Iauth0;
+        
         if (await auth0.isAuthenticated()){
             const user = await auth0.getUser();
             this.state.isLogin = true;
@@ -43,8 +44,11 @@ export class AuthStore {
         await this.setAuth();
     }
     
-    public signout(){
-        //
+    public async signout(){
+        const auth0 = await this.Iauth0;
+        await auth0.logout({
+            returnTo: window.location.origin
+        });
     }
 
     constructor(caller: ()=>AuthStore){

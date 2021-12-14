@@ -5,9 +5,18 @@
     </q-btn>
   </template>
   <template v-else>
-    <q-avatar>
-      <img :src="state.photoURL" >
-    </q-avatar>
+    <q-btn round flat>
+      <q-avatar>
+        <img :src="state.photoURL" >
+      </q-avatar>
+      <q-menu>
+        <q-list>
+          <q-item>
+            <q-item-section @click="authStore.signout()">{{ $t("Logout") }}</q-item-section>
+          </q-item>
+        </q-list>
+      </q-menu>
+    </q-btn>
   </template>
 
 </template>

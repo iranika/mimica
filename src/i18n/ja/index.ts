@@ -11,5 +11,6 @@ export default {
     createDeck: 'デッキの作成',
     help: 'ヘルプ',
     Mixn: 'トム×ブラウン',
-    Bookmarklet: 'ブックマークレットBOX'
+    Bookmarklet: 'ブックマークレットBOX',
+    Logout: 'ログアウト'
 };

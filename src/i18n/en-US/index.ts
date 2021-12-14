@@ -11,5 +11,6 @@ export default {
   favorite: 'Favarite',
   help: 'Help',
   Mixn: 'Tom × Brown',
-  Bookmarklet: 'Bookmarklet Box'
+  Bookmarklet: 'Bookmarklet Box',
+  Logout: 'Logout'
 };
