@@ -1,0 +1,1 @@
+javascript: (function (e) { let text = document.querySelector("#main > div.detail-block01.section > div.detail-comment02").innerText.replace(/(\n){2,}/g,"\n").replace("内容情報\n",""); navigator.clipboard.writeText(text).then(() => { console.log(text) }); })(encodeURIComponent);

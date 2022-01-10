@@ -99,6 +99,20 @@ const linksList = [
     disable: false
   },
   {
+    title: 'KC' ,
+    caption: 'KC',
+    icon: 'bookmark',
+    link: 'kc',
+    disable: false
+  },
+  {
+    title: 'MEditor' ,
+    caption: 'MEditor',
+    icon: 'create',
+    link: 'meditor',
+    disable: false
+  },
+  {
     title: 'createDeck' ,
     caption: 'github.com/quasarframework',
     icon: 'create',
