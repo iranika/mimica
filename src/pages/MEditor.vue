@@ -1,15 +1,15 @@
 <template>
   <q-page padding>
     <!-- content -->
-    <div class="text-h4">MEditor</div>
+    <div class="text-h4">MEditor<div class="text-caption" style="margin-left:10px; display: inline-block;">:WIP:0.10;</div></div>
     <table border="1">
       <tr class="tr-sound">
-        <td class="tr-sound" v-for="v in reverse(dialogue)" :key="v" v-html="v.sound" />
-        <td class="tr-sound">音響/演出</td>
+        <td class="tr-sound font-geneikoburi" v-for="v in reverse(dialogue)" :key="v" v-html="v.sound" />
+        <td class="tr-sound font-geneikoburi">@音響/#演出</td>
       </tr>
       <tr >
-        <td class="tr-serifu" v-for="v in reverse(dialogue)" :key="v" v-html="v.text" />
-        <td class="tr-serifu">セリフ</td>
+        <td class="tr-serifu font-geneikoburi" v-for="v in reverse(dialogue)" :key="v" v-html="v.text" />
+        <td class="tr-serifu font-geneikoburi">セリフ</td>
       </tr>
     </table>
     <q-editor
@@ -29,16 +29,14 @@
         ['save']
       ]"
     />
-    <div class="text-h5">デバッグエリア</div>
-    <q-card v-text="useEditoreStore().db.text"></q-card>
+    <div>
+      <div class="text-h5">デバッグエリア</div>
+      <q-card v-text="useEditoreStore().db.text"></q-card>
+    </div>
   </q-page>
 </template>
 
 <style>
-@font-face {
-  font-family: geneikoburi;
-  src: url("/fonts/GenEiKoburiMin_v6.1/GenEiKoburiMin6-R.ttf") format("ttf");
-}
 .tr-serifu{
   height: 300px;
   max-height: 300px;
@@ -53,7 +51,7 @@ td {
   writing-mode: vertical-rl;
   text-combine-upright: 3;
   text-orientation: upright;
-  font-family: geneikoburi;
+  text-align: left;
 }
 </style>
 
@@ -85,7 +83,11 @@ export default defineComponent({
         var _sound = <Array<string>>[];
         let _text = <Array<string>>[];
         dom.querySelectorAll('div').forEach((elem)=>{
-          if (elem.innerText[0] == '#' || elem.innerText[0] == '@'){
+          if (elem.innerText[0] == '#' 
+              || elem.innerText[0] == '＃'
+              || elem.innerText[0] == '@'
+              || elem.innerText[0] == '＠'
+          ){
             _sound.push(elem.innerText)
           }else{
             _text.push(elem.innerText)
