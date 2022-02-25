@@ -12,23 +12,22 @@
         <td class="tr-serifu font-geneikoburi">セリフ</td>
       </tr>
     </table>
-    <q-editor
-      v-model="useEditoreStore().db.text"
-      min-height="5rem"
-      :definitions="{
-        save: {
-          tip: '保存します',
-          icon: 'save',
-          label: '保存',
-          handler: useEditoreStore().commitEditorStore()
-        }
-      }"
-      :toolbar="[
-      ['left', 'center', 'right', 'justify'],
-        ['bold', 'italic', 'strike', 'underline'],
-        ['save']
-      ]"
-    />
+
+    <q-card
+      flat
+      bordered
+    >
+      <q-input
+        type="textarea"
+        v-model="useEditoreStore().db.text"
+      />
+      <q-separator />
+      <q-toolbar>
+        <q-btn flat round dense icon="save" class="q-mr-xs" @click="useEditoreStore().commitEditorStore()">
+          <q-tooltip>保存します</q-tooltip>
+        </q-btn>
+      </q-toolbar>
+    </q-card>
     <div>
       <div class="text-h5">デバッグエリア</div>
       <q-card v-text="useEditoreStore().db.text"></q-card>
@@ -78,28 +77,27 @@ export default defineComponent({
     const dialogue = computed(()=>{
       //TODO:空行は除外してもろて
       //return useEditoreStore().db.text.replace(/\(.+\)\n/g,'').replace(/（.+）\n/g,'').replace(/【.+】\n/g,'').replace(/\n{2,}/g,'\n').trim()
-      return useEditoreStore().db.text.split('<br>').map(v => {
-        let dom = new DOMParser().parseFromString(v, 'text/html');
-        var _sound = <Array<string>>[];
-        let _text = <Array<string>>[];
-        dom.querySelectorAll('div').forEach((elem)=>{
-          if (elem.innerText[0] == '#' 
-              || elem.innerText[0] == '＃'
-              || elem.innerText[0] == '@'
-              || elem.innerText[0] == '＠'
+      return useEditoreStore().db.text.split('\n\n').map(v => {
+        let lines = v.split('\n')
+        let _sound = <Array<string>>[]
+        let _text = <Array<string>>[]
+        lines.forEach((elem)=>{
+          if (elem[0] == '#' 
+              || elem[0] == '＃'
+              || elem[0] == '@'
+              || elem[0] == '＠'
           ){
-            _sound.push(elem.innerText)
+            _sound.push(elem)
           }else{
-            _text.push(elem.innerText)
+            _text.push(elem)
           }
-        })
+        });
 
         return <Dialog>{
-          sound: _sound.join('<br>'),
-          text: _text.join('<br>'),
+          sound: _sound.join('<br/>'),
+          text: _text.join('<br/>'),
           raw: v
         }
-      })
         /*
         .replace(/\(.+\)\n/g,'').replace(/（.+）\n/g,'').replace(/【.+】\n/g,'')
         .replace(/<div><\/div>/, '')
@@ -107,6 +105,7 @@ export default defineComponent({
         .replace(/<br>/g, '')
         //.replace(/(<\/td><td>)+/g, "")
         */
+      })
     })
     function reverse<T>(arr: Array<T>):Array<T>{
       if(arr.length === 0) return arr;
