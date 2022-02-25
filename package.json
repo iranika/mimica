@@ -1,7 +1,7 @@
 {
   "name": "mimica",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
+  "description": "MimiCaはiranikaの遊びツールを公開するサイトです",
   "productName": "mimica",
   "author": "iranika <7370486+iranika@users.noreply.github.com>",
   "private": true,
@@ -20,6 +20,7 @@
     "@quasar/extras": "^1.0.0",
     "@stripe/stripe-js": "^1.21.1",
     "@vue-stripe/vue-stripe": "^4.2.9",
+    "aws-amplify": "^4.3.12",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "dotenv": "^10.0.0",

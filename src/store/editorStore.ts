@@ -15,7 +15,7 @@ export class EditorStore {
     }
 
     public db = reactive({
-        text: String(window.localStorage.getItem(this.keys.text) ?? ''),
+        text: String(window.localStorage.getItem(this.keys.text) ?? '<div>@音響指示は＠を使います</div><div>#演出は#を使います</div><div>こんにちは</div><div>これはテストです。</div><div>サンプルです。</div><div><br></div><div>一行空けることで列を追加できます。</div><div>空けないとこのように改行されます。</div>'),
         setting: String(window.localStorage.getItem(this.keys.setting) ?? '')
     })
 

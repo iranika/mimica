@@ -1,0 +1,43 @@
+type PersonRole @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Role: String
+  actormodelID: ID! @index(name: "byActorModel")
+}
+
+type IllustratorModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  twitter_id: String
+}
+
+type CircleModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  dlsite_id: String
+  ProductModels: [ProductModel] @hasMany(indexName: "byCircleModel", fields: ["id"])
+}
+
+type PriceModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  price: Float
+  productmodelID: ID! @index(name: "byProductModel")
+  timestamp: AWSTimestamp
+}
+
+type ProductModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  title: String
+  ActorModels: [ActorModel] @hasMany(indexName: "byProductModel", fields: ["id"])
+  PriceModels: [PriceModel] @hasMany(indexName: "byProductModel", fields: ["id"])
+  circlemodelID: ID! @index(name: "byCircleModel")
+  IllustratorModel: [ActorModel] @hasMany(indexName: "byProductModel", fields: ["id"])
+}
+
+type ActorModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  twitter_id: String
+  productmodelID: ID! @index(name: "byProductModel")
+  PersonRoles: [PersonRole] @hasMany(indexName: "byActorModel", fields: ["id"])
+}
+ 

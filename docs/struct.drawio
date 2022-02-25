@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="PQjaSVPLRPWlCj5yYaFx" name="ページ1">
+        <mxGraphModel dx="1074" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="group;fillColor=none;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="70" y="420" width="350" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="storage service" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="4">
+                    <mxGeometry width="350" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="google drive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+                    <mxGeometry x="115" y="10" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="group;fillColor=none;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="170" y="80" width="350" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="personal client" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="8">
+                    <mxGeometry width="350" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="google drive&lt;br&gt;client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry x="60" y="130" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="MimiCa&lt;br&gt;(Electron)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry x="230" y="130" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="pc storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="8">
+                    <mxGeometry x="120" y="40" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="460" y="420" width="315" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="backend&lt;br&gt;services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;align=left;verticalAlign=top;" vertex="1" parent="11">
+                    <mxGeometry width="310" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="aws appsync" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="11">
+                    <mxGeometry x="90" y="10" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="aws cognito" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="11">
+                    <mxGeometry x="195" y="10" width="105" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="dynamo db" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="11">
+                    <mxGeometry x="90" y="70" width="90" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
