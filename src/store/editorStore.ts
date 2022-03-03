@@ -15,7 +15,7 @@ export class EditorStore {
     }
 
     public db = reactive({
-        text: String(window.localStorage.getItem(this.keys.text) ?? '<div>@音響指示は＠を使います</div><div>#演出は#を使います</div><div>こんにちは</div><div>これはテストです。</div><div>サンプルです。</div><div><br></div><div>一行空けることで列を追加できます。</div><div>空けないとこのように改行されます。</div>'),
+        text: String(window.localStorage.getItem(this.keys.text) ?? this.getInitText() ),
         setting: String(window.localStorage.getItem(this.keys.setting) ?? '')
     })
 
@@ -25,6 +25,15 @@ export class EditorStore {
 
     public commitEditorStore(){
         window.localStorage.setItem(this.keys.text, this.db.text)
+    }
+
+    private getInitText(){
+        return '@音響指示は＠を使います\n#演出は#を使います\nこんにちは。これはテストです。\nサンプルです。\n\n一行空けることで列を追加できます。\n空けないとこのように改行されます。\n#こんなふうにブロックの後ろにも記述できます';
+    }
+
+    public initEditorStore(){
+        this.db.text = this.getInitText();
+        //.localStorage.setItem(this.keys.text, this.db.text)
     }
 
     // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -41,6 +50,6 @@ export class EditorStore {
 
 }
 
-export function useEditoreStore():EditorStore{
+export function useEditorStore():EditorStore{
     return EditorStore.getInstance
 }

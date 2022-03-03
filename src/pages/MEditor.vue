@@ -17,20 +17,21 @@
       flat
       bordered
     >
-      <q-input
-        type="textarea"
-        v-model="useEditoreStore().db.text"
-      />
-      <q-separator />
-      <q-toolbar>
-        <q-btn flat round dense icon="save" class="q-mr-xs" @click="useEditoreStore().commitEditorStore()">
+      <div height="30px;">
+        <q-btn flat dense label="初期化" @click="useEditorStore().initEditorStore()"></q-btn>
+        <q-btn style="height:10px;" flat round dense icon="save" @click="useEditorStore().commitEditorStore()">
           <q-tooltip>保存します</q-tooltip>
         </q-btn>
-      </q-toolbar>
+      </div>    
+      <q-separator />
+      <q-input
+        type="textarea"
+        v-model="useEditorStore().db.text"
+      />
     </q-card>
     <div>
       <div class="text-h5">デバッグエリア</div>
-      <q-card v-text="useEditoreStore().db.text"></q-card>
+      <q-card v-text="useEditorStore().db.text"></q-card>
     </div>
   </q-page>
 </template>
@@ -56,7 +57,7 @@ td {
 
 <script lang="ts">
 import { defineComponent, computed } from 'vue'
-import { useEditoreStore } from 'src/store/editorStore';
+import { useEditorStore } from 'src/store/editorStore';
 
 interface Dialog{
   sound: string,
@@ -69,15 +70,15 @@ export default defineComponent({
   // name: 'PageName'
   setup(){
     const result = computed(()=>{
-      //return useEditoreStore().db.text.replace(/\(.+\)\n/g,'').replace(/（.+）\n/g,'').replace(/【.+】\n/g,'').replace(/\n{2,}/g,'\n').trim()
-      return useEditoreStore().db.text
+      //return useEditorStore().db.text.replace(/\(.+\)\n/g,'').replace(/（.+）\n/g,'').replace(/【.+】\n/g,'').replace(/\n{2,}/g,'\n').trim()
+      return useEditorStore().db.text
         .replace(/div/g, 'td')
         .replace(/<br>/g, '')
     })
     const dialogue = computed(()=>{
       //TODO:空行は除外してもろて
-      //return useEditoreStore().db.text.replace(/\(.+\)\n/g,'').replace(/（.+）\n/g,'').replace(/【.+】\n/g,'').replace(/\n{2,}/g,'\n').trim()
-      return useEditoreStore().db.text.split('\n\n').map(v => {
+      //return useEditorStore().db.text.replace(/\(.+\)\n/g,'').replace(/（.+）\n/g,'').replace(/【.+】\n/g,'').replace(/\n{2,}/g,'\n').trim()
+      return useEditorStore().db.text.split('\n\n').map(v => {
         let lines = v.split('\n')
         let _sound = <Array<string>>[]
         let _text = <Array<string>>[]
@@ -115,7 +116,7 @@ export default defineComponent({
 
 
     return {
-      useEditoreStore,
+      useEditorStore,
       result,
       dialogue,
       reverse
