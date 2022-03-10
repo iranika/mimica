@@ -83,10 +83,14 @@ export default defineComponent({
         let _sound = <Array<string>>[]
         let _text = <Array<string>>[]
         lines.forEach((elem)=>{
-          if (elem[0] == '#' 
+          if (   elem[0] == '#' 
               || elem[0] == '＃'
               || elem[0] == '@'
               || elem[0] == '＠'
+              || elem[0] == '$'
+              || elem[0] == '＄'
+              || elem[0] == '!'
+              || elem[0] == '！'
           ){
             _sound.push(elem)
           }else{
