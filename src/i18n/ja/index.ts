@@ -10,7 +10,10 @@ export default {
     collapse: '折りたたむ',
     createDeck: 'デッキの作成',
     help: 'ヘルプ',
+    KC: 'KC',
+    'MEditor': 'Meditor',
     Mixn: 'トム×ブラウン',
     Bookmarklet: 'ブックマークレットBOX',
-    Logout: 'ログアウト'
+    Logout: 'ログアウト',
+    'sign in': 'サインイン'
 };

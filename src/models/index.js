@@ -4,13 +4,8 @@ import { schema } from './schema';
 
 
 
-const { PersonRole, IllustratorModel, CircleModel, ProductModel, ActorModel, PriceModel } = initSchema(schema);
+const { UserModel } = initSchema(schema);
 
 export {
-  PersonRole,
-  IllustratorModel,
-  CircleModel,
-  ProductModel,
-  ActorModel,
-  PriceModel
+  UserModel
 };

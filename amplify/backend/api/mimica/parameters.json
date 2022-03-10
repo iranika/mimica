@@ -1,5 +1,0 @@
-{
-  "AppSyncApiName": "mimica",
-  "DynamoDBBillingMode": "PAY_PER_REQUEST",
-  "DynamoDBEnableServerSideEncryption": false
-}

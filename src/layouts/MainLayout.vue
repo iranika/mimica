@@ -147,7 +147,7 @@ const linksList = [
 
 import { defineComponent, ref, } from 'vue'
 import LanguageSwitch from 'components/LanguageSwitch.vue';
-import LoginButton from 'components/LoginButton.vue';
+import LoginButton from 'components/CognitoLoginButton.vue';
 import { LocalstoregeStore } from 'src/store/localstrageStore';
 
 export default defineComponent({

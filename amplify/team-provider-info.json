@@ -1,19 +1,19 @@
 {
-  "dev": {
+  "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-mimica-dev-220034-authRole",
-      "UnauthRoleArn": "arn:aws:iam::312700441122:role/amplify-mimica-dev-220034-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::312700441122:role/amplify-mimica-dev-220034-authRole",
+      "AuthRoleName": "amplify-mimica4-staging-210508-authRole",
+      "UnauthRoleArn": "arn:aws:iam::312700441122:role/amplify-mimica4-staging-210508-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::312700441122:role/amplify-mimica4-staging-210508-authRole",
       "Region": "ap-northeast-1",
-      "DeploymentBucketName": "amplify-mimica-dev-220034-deployment",
-      "UnauthRoleName": "amplify-mimica-dev-220034-unauthRole",
-      "StackName": "amplify-mimica-dev-220034",
-      "StackId": "arn:aws:cloudformation:ap-northeast-1:312700441122:stack/amplify-mimica-dev-220034/4bf55790-8e5f-11ec-a358-0eedf84af8df",
-      "AmplifyAppId": "d3kcxwp5k38xig"
+      "DeploymentBucketName": "amplify-mimica4-staging-210508-deployment",
+      "UnauthRoleName": "amplify-mimica4-staging-210508-unauthRole",
+      "StackName": "amplify-mimica4-staging-210508",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:312700441122:stack/amplify-mimica4-staging-210508/99f60c20-9fec-11ec-b9a1-0e8795723675",
+      "AmplifyAppId": "d1g0791m9i5u9p"
     },
     "categories": {
       "auth": {
-        "mimica1bbea4a4": {}
+        "mimica4": {}
       }
     }
   }
