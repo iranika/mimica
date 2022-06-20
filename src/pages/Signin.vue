@@ -1,9 +1,14 @@
 <template>
   <q-page>
     <q-card flat style="max-width:600px; margin-top: 10px;">
-      <Authenticator>
+      <Authenticator
+        :sign-up-attributes="[
+          'name'
+        ]"
+        
+      >
         <template v-slot="{ user, signOut }">
-          <div>Hello: {{ user.attributes.name }}!</div>
+          <div>Hello: {{ user.attributes.name }}</div>
           <button @click="signOut">Sign Out</button>
         </template>
       </Authenticator>
@@ -17,19 +22,9 @@ import DeckCard from 'components/DeckCard.vue'
 import { Authenticator } from '@aws-amplify/ui-vue';
 import '@aws-amplify/ui-vue/styles.css';
 import { Amplify } from 'aws-amplify';
-import { I18n } from 'aws-amplify';
-import { translations } from '@aws-amplify/ui-vue';
-I18n.putVocabularies(translations);
-I18n.setLanguage('ja');
 
 import awsExports from '../aws-exports';
 Amplify.configure(awsExports);
-
-I18n.putVocabularies({
-  ja: {
-    'Name': 'お名前',
-  },
-});
 
 export default defineComponent({
   name: 'signin',
@@ -42,7 +37,6 @@ export default defineComponent({
   },
   setup(){
     return {
-      
     }
   }
 })

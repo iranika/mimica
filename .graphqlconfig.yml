@@ -1,6 +1,6 @@
 projects:
-  MimiCa:
-    schemaPath: src/graphql/schema.json
+  mimica6:
+    schemaPath: amplify/backend/api/mimica6/build/schema.graphql
     includes:
       - src/graphql/**/*.ts
     excludes:
@@ -8,8 +8,11 @@ projects:
     extensions:
       amplify:
         codeGenTarget: typescript
-        generatedFileName: src/api/mimica.ts
+        generatedFileName: src/API.ts
         docsFilePath: src/graphql
         region: ap-northeast-1
-        apiId: oo5g37psozdrdahzbuslmk3djm
+        apiId: null
         maxDepth: 2
+extensions:
+  amplify:
+    version: 3

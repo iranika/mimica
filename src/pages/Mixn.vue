@@ -2,7 +2,9 @@
   <q-page class="flex flex-center">
     <q-card class="mixn-card">
       <q-card-section style="">
-        <div class="text-h4" style="margin: 10px auto 10px auto;">{{$t('Mixn')}}<div class="text-caption" style="margin-left:10px; display: inline-block;">:WIP:0.30;</div></div>
+        <div class="text-h4" style="margin: 10px auto 10px auto;">{{$t('Mixn')}}
+          
+        </div>
         <div>
           {{ $t('Mixn') }}は好きな作品の名前をごちゃまぜにする"ソクラテスラ"っぽいアプリです。テキストエリアに名前を貼り付けてジェネレートボタンを押したら生成されます。<br>
         </div>

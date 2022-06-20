@@ -1,0 +1,2 @@
+import kuromoji from "kuromoji";
+

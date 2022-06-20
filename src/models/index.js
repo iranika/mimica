@@ -4,8 +4,10 @@ import { schema } from './schema';
 
 
 
-const { UserModel } = initSchema(schema);
+const { RenkaList, UserDashbordModel, MileyPersonModel } = initSchema(schema);
 
 export {
-  UserModel
+  RenkaList,
+  UserDashbordModel,
+  MileyPersonModel
 };

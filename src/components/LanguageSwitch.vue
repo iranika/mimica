@@ -21,6 +21,8 @@ import { watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { LocalstoregeStore } from 'src/store/localstrageStore';
 //import { LocalStorage, SessionStorage } from 'quasar';
+import { I18n } from 'aws-amplify';
+
 
 export default {
   setup () {
@@ -31,6 +33,8 @@ export default {
       (locale)=>{
         console.info('locale was changed.',locale.value)
         LocalstoregeStore.getInstance.setDefaultLocale(locale.value)
+        console.log(locale.value.replace(/\-.*/,''))
+        I18n.setLanguage(locale.value.replace(/\-.*/,''))
       },
       { deep: true }
     )

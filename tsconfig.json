@@ -1,7 +1,9 @@
 {
-  "extends": "@quasar/app/tsconfig-preset",
+  "extends": "@quasar/app-webpack/tsconfig-preset",
   "compilerOptions": {
     "baseUrl": ".",
+    "target": "ES2015",
     "types": ["raw-loader.d.ts", "node"]
-  }
+
+  },
 }

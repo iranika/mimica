@@ -12,5 +12,10 @@ export default {
   help: 'Help',
   Mixn: 'Tom × Brown',
   Bookmarklet: 'Bookmarklet Box',
-  Logout: 'Logout'
+  Logout: 'Logout',
+  'sign in': 'sign in',
+  KC: 'KC',
+  'MEditor': 'Meditor',
+  Higuchi: 'Higuchi',
+  contact: 'Contact'
 };

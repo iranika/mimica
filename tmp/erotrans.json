@@ -1,0 +1,4500 @@
+{
+    "RJ378120": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "8288",
+        "wishlist_count": "4541",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 3,
+                "rank_date": "2022-03-11"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 4,
+                "rank_date": "2022-03-16"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 8,
+                "rank_date": "2022-04-05"
+            },
+            {
+                "term": "day",
+                "category": "voice",
+                "rank": 1,
+                "rank_date": "2022-03-11"
+            },
+            {
+                "term": "week",
+                "category": "voice",
+                "rank": 2,
+                "rank_date": "2022-03-12"
+            },
+            {
+                "term": "month",
+                "category": "voice",
+                "rank": 2,
+                "rank_date": "2022-03-20"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 263,
+                "rank_date": "2022-04-05"
+            }
+        ],
+        "rate_average": 5,
+        "rate_average_2dp": 4.8,
+        "rate_average_star": 50,
+        "rate_count": 1761,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 9,
+                "ratio": 0
+            },
+            {
+                "review_point": 2,
+                "count": 9,
+                "ratio": 0
+            },
+            {
+                "review_point": 3,
+                "count": 57,
+                "ratio": 3
+            },
+            {
+                "review_point": 4,
+                "count": 180,
+                "ratio": 10
+            },
+            {
+                "review_point": 5,
+                "count": 1506,
+                "ratio": 85
+            }
+        ],
+        "review_count": "28",
+        "price": 1232,
+        "price_without_tax": 1120,
+        "price_str": "1,232",
+        "default_point_rate": 10,
+        "default_point": 112,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": true,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ378120.html",
+        "is_tartget": null,
+        "title_id": "SRI0000012825",
+        "title_name": "リアルヒプノシリーズ",
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": true,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "アンリアルヒプノ",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ379000/RJ378120_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2022-03-11 00:00:00",
+        "locale_price": {
+            "en_US": 10.03,
+            "": 7.65,
+            "zh_TW": 286.51,
+            "zh_CN": 63.83,
+            "ko_KR": 12198
+        },
+        "locale_price_str": {
+            "en_US": "$10.03<i>&nbsp;USD</i>",
+            "": "7.65",
+            "zh_TW": "<i>NT$</i>286.51",
+            "zh_CN": "63.83<i>&nbsp;RMB</i>",
+            "ko_KR": "12,198<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "discount_rate": 20,
+        "official_price": 1540,
+        "campaign_id": null,
+        "official_price_str": "1,540",
+        "locale_official_price": {
+            "en_US": 12.54,
+            "": 9.57,
+            "zh_TW": 358.14,
+            "zh_CN": 79.79,
+            "ko_KR": 15248
+        },
+        "locale_official_price_str": {
+            "en_US": "$12.54<i>&nbsp;USD</i>",
+            "": "9.57",
+            "zh_TW": "<i>NT$</i>358.14",
+            "zh_CN": "79.79<i>&nbsp;RMB</i>",
+            "ko_KR": "15,248<i>&nbsp;원</i>"
+        },
+        "discount_end_date": "4/7 23時59分",
+        "discount_to": null,
+        "discount_caption": null,
+        "default_point_str": "112"
+    },
+    "RJ283004": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "1004",
+        "wishlist_count": "1676",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "voice",
+                "rank": 12,
+                "rank_date": "2020-04-11"
+            },
+            {
+                "term": "week",
+                "category": "voice",
+                "rank": 30,
+                "rank_date": "2020-04-16"
+            },
+            {
+                "term": "month",
+                "category": "voice",
+                "rank": 61,
+                "rank_date": "2020-05-04"
+            }
+        ],
+        "rate_average": 5,
+        "rate_average_2dp": 4.64,
+        "rate_average_star": 50,
+        "rate_count": 424,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 1,
+                "ratio": 0
+            },
+            {
+                "review_point": 2,
+                "count": 5,
+                "ratio": 1
+            },
+            {
+                "review_point": 3,
+                "count": 27,
+                "ratio": 6
+            },
+            {
+                "review_point": 4,
+                "count": 79,
+                "ratio": 18
+            },
+            {
+                "review_point": 5,
+                "count": 312,
+                "ratio": 73
+            }
+        ],
+        "review_count": "5",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ283004.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "タイムローター",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ284000/RJ283004_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2020-04-10 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ274843": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "7860",
+        "wishlist_count": "4302",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 2,
+                "rank_date": "2020-01-25"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 2,
+                "rank_date": "2020-01-31"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 9,
+                "rank_date": "2020-02-23"
+            },
+            {
+                "term": "day",
+                "category": "voice",
+                "rank": 1,
+                "rank_date": "2020-01-25"
+            },
+            {
+                "term": "week",
+                "category": "voice",
+                "rank": 1,
+                "rank_date": "2020-01-26"
+            },
+            {
+                "term": "month",
+                "category": "voice",
+                "rank": 3,
+                "rank_date": "2020-02-17"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 89,
+                "rank_date": "2020"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 247,
+                "rank_date": "2020-05-07"
+            }
+        ],
+        "rate_average": 5,
+        "rate_average_2dp": 4.75,
+        "rate_average_star": 50,
+        "rate_count": 3504,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 12,
+                "ratio": 0
+            },
+            {
+                "review_point": 2,
+                "count": 10,
+                "ratio": 0
+            },
+            {
+                "review_point": 3,
+                "count": 157,
+                "ratio": 4
+            },
+            {
+                "review_point": 4,
+                "count": 468,
+                "ratio": 13
+            },
+            {
+                "review_point": 5,
+                "count": 2857,
+                "ratio": 81
+            }
+        ],
+        "review_count": "32",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ274843.html",
+        "is_tartget": null,
+        "title_id": "SRI0000015240",
+        "title_name": "ヒプノマルチシリーズ",
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "迷い子の催眠～ヒプノマルチレイプ～",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ275000/RJ274843_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2020-01-25 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ260463": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "26963",
+        "wishlist_count": "11824",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2019-08-23"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2019-08-24"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2019-08-31"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 23,
+                "rank_date": "2019"
+            },
+            {
+                "term": "total",
+                "category": "all",
+                "rank": 123,
+                "rank_date": "2020-12-01"
+            },
+            {
+                "term": "day",
+                "category": "voice",
+                "rank": 1,
+                "rank_date": "2019-08-23"
+            },
+            {
+                "term": "week",
+                "category": "voice",
+                "rank": 1,
+                "rank_date": "2019-08-24"
+            },
+            {
+                "term": "month",
+                "category": "voice",
+                "rank": 1,
+                "rank_date": "2019-08-29"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 3,
+                "rank_date": "2019"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 7,
+                "rank_date": "2020-03-18"
+            }
+        ],
+        "rate_average": 5,
+        "rate_average_2dp": 4.73,
+        "rate_average_star": 50,
+        "rate_count": 10244,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 48,
+                "ratio": 0
+            },
+            {
+                "review_point": 2,
+                "count": 75,
+                "ratio": 0
+            },
+            {
+                "review_point": 3,
+                "count": 481,
+                "ratio": 4
+            },
+            {
+                "review_point": 4,
+                "count": 1369,
+                "ratio": 13
+            },
+            {
+                "review_point": 5,
+                "count": 8271,
+                "ratio": 80
+            }
+        ],
+        "review_count": "163",
+        "price": 1320,
+        "price_without_tax": 1200,
+        "price_str": "1,320",
+        "default_point_rate": 10,
+        "default_point": 120,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/split/=/product_id/RJ260463.html",
+        "is_tartget": "blank",
+        "title_id": "SRI0000015240",
+        "title_name": "ヒプノマルチシリーズ",
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "地獄級ヒプノマルチレイプ",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ261000/RJ260463_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2019-08-23 00:00:00",
+        "locale_price": {
+            "en_US": 10.75,
+            "": 8.2,
+            "zh_TW": 306.98,
+            "zh_CN": 68.39,
+            "ko_KR": 13069
+        },
+        "locale_price_str": {
+            "en_US": "$10.75<i>&nbsp;USD</i>",
+            "": "8.20",
+            "zh_TW": "<i>NT$</i>306.98",
+            "zh_CN": "68.39<i>&nbsp;RMB</i>",
+            "ko_KR": "13,069<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "120"
+    },
+    "RJ241597": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "3031",
+        "wishlist_count": "3505",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 2,
+                "rank_date": "2019-01-25"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 7,
+                "rank_date": "2019-01-31"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 15,
+                "rank_date": "2019-02-04"
+            },
+            {
+                "term": "day",
+                "category": "game",
+                "rank": 2,
+                "rank_date": "2019-01-25"
+            },
+            {
+                "term": "week",
+                "category": "game",
+                "rank": 5,
+                "rank_date": "2019-01-31"
+            },
+            {
+                "term": "month",
+                "category": "game",
+                "rank": 9,
+                "rank_date": "2019-02-17"
+            }
+        ],
+        "rate_average": 5,
+        "rate_average_2dp": 4.52,
+        "rate_average_star": 50,
+        "rate_count": 1507,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 12,
+                "ratio": 0
+            },
+            {
+                "review_point": 2,
+                "count": 20,
+                "ratio": 1
+            },
+            {
+                "review_point": 3,
+                "count": 156,
+                "ratio": 10
+            },
+            {
+                "review_point": 4,
+                "count": 296,
+                "ratio": 19
+            },
+            {
+                "review_point": 5,
+                "count": 1023,
+                "ratio": 67
+            }
+        ],
+        "review_count": "18",
+        "price": 1540,
+        "price_without_tax": 1400,
+        "price_str": "1,540",
+        "default_point_rate": 10,
+        "default_point": 140,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/split/=/product_id/RJ241597.html",
+        "is_tartget": "blank",
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "サキュバスの世界に落とされて堕とされて…",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ242000/RJ241597_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2019-01-25 00:00:00",
+        "locale_price": {
+            "en_US": 12.54,
+            "": 9.57,
+            "zh_TW": 358.14,
+            "zh_CN": 79.79,
+            "ko_KR": 15248
+        },
+        "locale_price_str": {
+            "en_US": "$12.54<i>&nbsp;USD</i>",
+            "": "9.57",
+            "zh_TW": "<i>NT$</i>358.14",
+            "zh_CN": "79.79<i>&nbsp;RMB</i>",
+            "ko_KR": "15,248<i>&nbsp;원</i>"
+        },
+        "work_type": "MOV",
+        "is_pack_work": false,
+        "default_point_str": "140"
+    },
+    "RJ231054": {
+        "site_id": "home",
+        "site_id_touch": "hometouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "12414",
+        "wishlist_count": "6965",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 4,
+                "rank_date": "2018-09-18"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 5,
+                "rank_date": "2018-09-21"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 10,
+                "rank_date": "2018-10-13"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 134,
+                "rank_date": "2018"
+            },
+            {
+                "term": "day",
+                "category": "voice",
+                "rank": 5,
+                "rank_date": "2018-10-14"
+            },
+            {
+                "term": "week",
+                "category": "voice",
+                "rank": 7,
+                "rank_date": "2018-10-18"
+            },
+            {
+                "term": "month",
+                "category": "voice",
+                "rank": 1,
+                "rank_date": "2018-10-21"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 21,
+                "rank_date": "2018"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 70,
+                "rank_date": "2019-09-16"
+            }
+        ],
+        "rate_average": 5,
+        "rate_average_2dp": 4.7,
+        "rate_average_star": 50,
+        "rate_count": 5548,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 17,
+                "ratio": 0
+            },
+            {
+                "review_point": 2,
+                "count": 40,
+                "ratio": 0
+            },
+            {
+                "review_point": 3,
+                "count": 315,
+                "ratio": 5
+            },
+            {
+                "review_point": 4,
+                "count": 869,
+                "ratio": 15
+            },
+            {
+                "review_point": 5,
+                "count": 4307,
+                "ratio": 77
+            }
+        ],
+        "review_count": "69",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ231054.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "催眠スクール～催眠にかかる為の催眠音声～",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ232000/RJ231054_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2018-09-15 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ214295": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "6517",
+        "wishlist_count": "4038",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2018-01-18"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2018-01-24"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 7,
+                "rank_date": "2018-02-10"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 133,
+                "rank_date": "2018"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 20,
+                "rank_date": "2018"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 130,
+                "rank_date": "2019-03-30"
+            }
+        ],
+        "rate_average": 5,
+        "rate_average_2dp": 4.63,
+        "rate_average_star": 50,
+        "rate_count": 3424,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 18,
+                "ratio": 0
+            },
+            {
+                "review_point": 2,
+                "count": 40,
+                "ratio": 1
+            },
+            {
+                "review_point": 3,
+                "count": 248,
+                "ratio": 7
+            },
+            {
+                "review_point": 4,
+                "count": 595,
+                "ratio": 17
+            },
+            {
+                "review_point": 5,
+                "count": 2523,
+                "ratio": 73
+            }
+        ],
+        "review_count": "53",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/split/=/product_id/RJ214295.html",
+        "is_tartget": "blank",
+        "title_id": "SRI0000012825",
+        "title_name": "リアルヒプノシリーズ",
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "催眠術師の悪戯～催眠ショーのステージの上で…～",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ215000/RJ214295_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2018-01-18 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ205378": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "5706",
+        "wishlist_count": "3242",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 2,
+                "rank_date": "2017-09-15"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 3,
+                "rank_date": "2017-09-17"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 7,
+                "rank_date": "2017-10-02"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 162,
+                "rank_date": "2017"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 27,
+                "rank_date": "2017"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 131,
+                "rank_date": "2018-10-29"
+            }
+        ],
+        "rate_average": 5,
+        "rate_average_2dp": 4.56,
+        "rate_average_star": 50,
+        "rate_count": 3062,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 21,
+                "ratio": 0
+            },
+            {
+                "review_point": 2,
+                "count": 31,
+                "ratio": 1
+            },
+            {
+                "review_point": 3,
+                "count": 250,
+                "ratio": 8
+            },
+            {
+                "review_point": 4,
+                "count": 670,
+                "ratio": 21
+            },
+            {
+                "review_point": 5,
+                "count": 2090,
+                "ratio": 68
+            }
+        ],
+        "review_count": "30",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ205378.html",
+        "is_tartget": null,
+        "title_id": "SRI0000012825",
+        "title_name": "リアルヒプノシリーズ",
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "【バイノーラル】2人で催眠生放送【初見さん歓迎♪】",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ206000/RJ205378_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2017-09-15 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ190391": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "29587",
+        "wishlist_count": "11458",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2017-01-12"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2017-01-16"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2017-02-08"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 7,
+                "rank_date": "2017"
+            },
+            {
+                "term": "total",
+                "category": "all",
+                "rank": 43,
+                "rank_date": "2019-07-26"
+            },
+            {
+                "term": "day",
+                "category": "voice",
+                "rank": 14,
+                "rank_date": "2019-06-06"
+            },
+            {
+                "term": "week",
+                "category": "voice",
+                "rank": 29,
+                "rank_date": "2019-01-11"
+            },
+            {
+                "term": "month",
+                "category": "voice",
+                "rank": 40,
+                "rank_date": "2019-06-25"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 1,
+                "rank_date": "2017"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 2,
+                "rank_date": "2019-08-01"
+            }
+        ],
+        "rate_average": 5,
+        "rate_average_2dp": 4.63,
+        "rate_average_star": 50,
+        "rate_count": 11817,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 89,
+                "ratio": 0
+            },
+            {
+                "review_point": 2,
+                "count": 149,
+                "ratio": 1
+            },
+            {
+                "review_point": 3,
+                "count": 737,
+                "ratio": 6
+            },
+            {
+                "review_point": 4,
+                "count": 2049,
+                "ratio": 17
+            },
+            {
+                "review_point": 5,
+                "count": 8793,
+                "ratio": 74
+            }
+        ],
+        "review_count": "191",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ190391.html",
+        "is_tartget": null,
+        "title_id": "SRI0000015240",
+        "title_name": "ヒプノマルチシリーズ",
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "ヒプノマルチレイプ",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ191000/RJ190391_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2017-01-12 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ185801": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "5067",
+        "wishlist_count": "2773",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 2,
+                "rank_date": "2016-10-08"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 3,
+                "rank_date": "2016-10-12"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 9,
+                "rank_date": "2016-11-02"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 174,
+                "rank_date": "2016"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 30,
+                "rank_date": "2016"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 142,
+                "rank_date": "2018-10-11"
+            }
+        ],
+        "rate_average": 5,
+        "rate_average_2dp": 4.57,
+        "rate_average_star": 50,
+        "rate_count": 2690,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 19,
+                "ratio": 0
+            },
+            {
+                "review_point": 2,
+                "count": 31,
+                "ratio": 1
+            },
+            {
+                "review_point": 3,
+                "count": 211,
+                "ratio": 7
+            },
+            {
+                "review_point": 4,
+                "count": 573,
+                "ratio": 21
+            },
+            {
+                "review_point": 5,
+                "count": 1856,
+                "ratio": 68
+            }
+        ],
+        "review_count": "29",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ185801.html",
+        "is_tartget": null,
+        "title_id": "SRI0000012825",
+        "title_name": "リアルヒプノシリーズ",
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "ヒプノフィルター",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ186000/RJ185801_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2016-10-07 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ172011": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "5670",
+        "wishlist_count": "3459",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 3,
+                "rank_date": "2016-02-26"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 7,
+                "rank_date": "2016-02-28"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 16,
+                "rank_date": "2016-03-25"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 136,
+                "rank_date": "2016"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 22,
+                "rank_date": "2016"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 124,
+                "rank_date": "2018-10-11"
+            }
+        ],
+        "rate_average": 5,
+        "rate_average_2dp": 4.59,
+        "rate_average_star": 50,
+        "rate_count": 2941,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 23,
+                "ratio": 0
+            },
+            {
+                "review_point": 2,
+                "count": 40,
+                "ratio": 1
+            },
+            {
+                "review_point": 3,
+                "count": 207,
+                "ratio": 7
+            },
+            {
+                "review_point": 4,
+                "count": 575,
+                "ratio": 19
+            },
+            {
+                "review_point": 5,
+                "count": 2096,
+                "ratio": 71
+            }
+        ],
+        "review_count": "41",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ172011.html",
+        "is_tartget": null,
+        "title_id": "SRI0000012825",
+        "title_name": "リアルヒプノシリーズ",
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "リアルヒプノ",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ173000/RJ172011_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2016-02-25 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ168760": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "1660",
+        "wishlist_count": "894",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 5,
+                "rank_date": "2016-01-16"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 10,
+                "rank_date": "2016-01-20"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 51,
+                "rank_date": "2016-02-13"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 129,
+                "rank_date": "2016"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.35,
+        "rate_average_star": 45,
+        "rate_count": 867,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 15,
+                "ratio": 1
+            },
+            {
+                "review_point": 2,
+                "count": 23,
+                "ratio": 2
+            },
+            {
+                "review_point": 3,
+                "count": 105,
+                "ratio": 12
+            },
+            {
+                "review_point": 4,
+                "count": 227,
+                "ratio": 26
+            },
+            {
+                "review_point": 5,
+                "count": 497,
+                "ratio": 57
+            }
+        ],
+        "review_count": "8",
+        "price": 1100,
+        "price_without_tax": 1000,
+        "price_str": "1,100",
+        "default_point_rate": 10,
+        "default_point": 100,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ168760.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "ヒプノヘルツ",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ169000/RJ168760_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2016-01-15 00:00:00",
+        "locale_price": {
+            "en_US": 8.96,
+            "": 6.83,
+            "zh_TW": 255.81,
+            "zh_CN": 56.99,
+            "ko_KR": 10891
+        },
+        "locale_price_str": {
+            "en_US": "$8.96<i>&nbsp;USD</i>",
+            "": "6.83",
+            "zh_TW": "<i>NT$</i>255.81",
+            "zh_CN": "56.99<i>&nbsp;RMB</i>",
+            "ko_KR": "10,891<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "100"
+    },
+    "RJ160018": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "10899",
+        "wishlist_count": "5284",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2015-08-28"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2015-09-02"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2015-09-21"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 48,
+                "rank_date": "2015"
+            },
+            {
+                "term": "total",
+                "category": "all",
+                "rank": 391,
+                "rank_date": "2018-07-22"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 2,
+                "rank_date": "2015"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 18,
+                "rank_date": "2018-10-17"
+            }
+        ],
+        "rate_average": 5,
+        "rate_average_2dp": 4.6,
+        "rate_average_star": 50,
+        "rate_count": 5310,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 43,
+                "ratio": 0
+            },
+            {
+                "review_point": 2,
+                "count": 72,
+                "ratio": 1
+            },
+            {
+                "review_point": 3,
+                "count": 392,
+                "ratio": 7
+            },
+            {
+                "review_point": 4,
+                "count": 971,
+                "ratio": 18
+            },
+            {
+                "review_point": 5,
+                "count": 3832,
+                "ratio": 72
+            }
+        ],
+        "review_count": "62",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ160018.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "双子の催眠彼女",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ161000/RJ160018_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2015-08-28 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ148280": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "3745",
+        "wishlist_count": "1419",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 4,
+                "rank_date": "2015-01-17"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 8,
+                "rank_date": "2015-01-22"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 13,
+                "rank_date": "2015-02-12"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 161,
+                "rank_date": "2015"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 14,
+                "rank_date": "2015"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 196,
+                "rank_date": "2018-10-11"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.43,
+        "rate_average_star": 45,
+        "rate_count": 1882,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 20,
+                "ratio": 1
+            },
+            {
+                "review_point": 2,
+                "count": 32,
+                "ratio": 1
+            },
+            {
+                "review_point": 3,
+                "count": 178,
+                "ratio": 9
+            },
+            {
+                "review_point": 4,
+                "count": 538,
+                "ratio": 28
+            },
+            {
+                "review_point": 5,
+                "count": 1114,
+                "ratio": 59
+            }
+        ],
+        "review_count": "21",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ148280.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "ヒプノクラウド",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ149000/RJ148280_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2015-01-16 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ140665": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "17165",
+        "wishlist_count": "6579",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2014-09-02"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2014-09-06"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2014-09-26"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 30,
+                "rank_date": "2014"
+            },
+            {
+                "term": "total",
+                "category": "all",
+                "rank": 200,
+                "rank_date": "2020-01-12"
+            },
+            {
+                "term": "day",
+                "category": "voice",
+                "rank": 11,
+                "rank_date": "2020-01-03"
+            },
+            {
+                "term": "week",
+                "category": "voice",
+                "rank": 30,
+                "rank_date": "2020-01-04"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 1,
+                "rank_date": "2014"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 8,
+                "rank_date": "2018-10-11"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.35,
+        "rate_average_star": 45,
+        "rate_count": 7371,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 103,
+                "ratio": 1
+            },
+            {
+                "review_point": 2,
+                "count": 192,
+                "ratio": 2
+            },
+            {
+                "review_point": 3,
+                "count": 1014,
+                "ratio": 13
+            },
+            {
+                "review_point": 4,
+                "count": 1752,
+                "ratio": 23
+            },
+            {
+                "review_point": 5,
+                "count": 4310,
+                "ratio": 58
+            }
+        ],
+        "review_count": "98",
+        "price": 1320,
+        "price_without_tax": 1200,
+        "price_str": "1,320",
+        "default_point_rate": 10,
+        "default_point": 120,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ140665.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "明晰淫夢",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ141000/RJ140665_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2014-08-30 00:00:00",
+        "locale_price": {
+            "en_US": 10.75,
+            "": 8.2,
+            "zh_TW": 306.98,
+            "zh_CN": 68.39,
+            "ko_KR": 13069
+        },
+        "locale_price_str": {
+            "en_US": "$10.75<i>&nbsp;USD</i>",
+            "": "8.20",
+            "zh_TW": "<i>NT$</i>306.98",
+            "zh_CN": "68.39<i>&nbsp;RMB</i>",
+            "ko_KR": "13,069<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "120"
+    },
+    "RJ127012": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "6194",
+        "wishlist_count": "2103",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2014-01-16"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 2,
+                "rank_date": "2014-01-19"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 6,
+                "rank_date": "2014-02-14"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 63,
+                "rank_date": "2014"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 2,
+                "rank_date": "2014"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 56,
+                "rank_date": "2018-10-11"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.38,
+        "rate_average_star": 45,
+        "rate_count": 3028,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 49,
+                "ratio": 1
+            },
+            {
+                "review_point": 2,
+                "count": 83,
+                "ratio": 2
+            },
+            {
+                "review_point": 3,
+                "count": 364,
+                "ratio": 12
+            },
+            {
+                "review_point": 4,
+                "count": 706,
+                "ratio": 23
+            },
+            {
+                "review_point": 5,
+                "count": 1826,
+                "ratio": 60
+            }
+        ],
+        "review_count": "26",
+        "price": 1320,
+        "price_without_tax": 1200,
+        "price_str": "1,320",
+        "default_point_rate": 10,
+        "default_point": 120,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ127012.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "耳かき催眠",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ128000/RJ127012_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2014-01-15 00:00:00",
+        "locale_price": {
+            "en_US": 10.75,
+            "": 8.2,
+            "zh_TW": 306.98,
+            "zh_CN": 68.39,
+            "ko_KR": 13069
+        },
+        "locale_price_str": {
+            "en_US": "$10.75<i>&nbsp;USD</i>",
+            "": "8.20",
+            "zh_TW": "<i>NT$</i>306.98",
+            "zh_CN": "68.39<i>&nbsp;RMB</i>",
+            "ko_KR": "13,069<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "120"
+    },
+    "RJ120595": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "22779",
+        "wishlist_count": "6974",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2013-09-05"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 2,
+                "rank_date": "2013-09-07"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 2,
+                "rank_date": "2013-10-01"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 28,
+                "rank_date": "2013"
+            },
+            {
+                "term": "total",
+                "category": "all",
+                "rank": 53,
+                "rank_date": "2018-07-14"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 1,
+                "rank_date": "2013"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 3,
+                "rank_date": "2018-10-11"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.48,
+        "rate_average_star": 45,
+        "rate_count": 8616,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 105,
+                "ratio": 1
+            },
+            {
+                "review_point": 2,
+                "count": 168,
+                "ratio": 1
+            },
+            {
+                "review_point": 3,
+                "count": 843,
+                "ratio": 9
+            },
+            {
+                "review_point": 4,
+                "count": 1909,
+                "ratio": 22
+            },
+            {
+                "review_point": 5,
+                "count": 5591,
+                "ratio": 64
+            }
+        ],
+        "review_count": "151",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ120595.html",
+        "is_tartget": null,
+        "title_id": "SRI0000015240",
+        "title_name": "ヒプノマルチシリーズ",
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "ヒプノマルチボイス",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ121000/RJ120595_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2013-09-05 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ119914": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "1075",
+        "wishlist_count": "608",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 11,
+                "rank_date": "2013-08-25"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 22,
+                "rank_date": "2013-08-30"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 82,
+                "rank_date": "2013-09-19"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 75,
+                "rank_date": "2013"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.02,
+        "rate_average_star": 45,
+        "rate_count": 533,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 15,
+                "ratio": 2
+            },
+            {
+                "review_point": 2,
+                "count": 24,
+                "ratio": 4
+            },
+            {
+                "review_point": 3,
+                "count": 113,
+                "ratio": 21
+            },
+            {
+                "review_point": 4,
+                "count": 163,
+                "ratio": 30
+            },
+            {
+                "review_point": 5,
+                "count": 218,
+                "ratio": 40
+            }
+        ],
+        "review_count": "9",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ119914.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "催眠巫女～憑依と浄霊～",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ120000/RJ119914_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2013-08-24 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ109582": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "854",
+        "wishlist_count": "1375",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 7,
+                "rank_date": "2013-02-16"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 22,
+                "rank_date": "2013-02-21"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.27,
+        "rate_average_star": 45,
+        "rate_count": 445,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 7,
+                "ratio": 1
+            },
+            {
+                "review_point": 2,
+                "count": 12,
+                "ratio": 2
+            },
+            {
+                "review_point": 3,
+                "count": 57,
+                "ratio": 12
+            },
+            {
+                "review_point": 4,
+                "count": 146,
+                "ratio": 32
+            },
+            {
+                "review_point": 5,
+                "count": 223,
+                "ratio": 50
+            }
+        ],
+        "review_count": "7",
+        "price": 2530,
+        "price_without_tax": 2300,
+        "price_str": "2,530",
+        "default_point_rate": 10,
+        "default_point": 230,
+        "product_point_rate": null,
+        "dlsiteplay_work": false,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ109582.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "白黒催眠",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ110000/RJ109582_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2013-02-15 00:00:00",
+        "locale_price": {
+            "en_US": 20.6,
+            "": 15.71,
+            "zh_TW": 588.37,
+            "zh_CN": 131.09,
+            "ko_KR": 25050
+        },
+        "locale_price_str": {
+            "en_US": "$20.60<i>&nbsp;USD</i>",
+            "": "15.71",
+            "zh_TW": "<i>NT$</i>588.37",
+            "zh_CN": "131.09<i>&nbsp;RMB</i>",
+            "ko_KR": "25,050<i>&nbsp;원</i>"
+        },
+        "work_type": "ADV",
+        "is_pack_work": false,
+        "default_point_str": "230"
+    },
+    "RJ109294": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "2095",
+        "wishlist_count": "854",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 4,
+                "rank_date": "2013-01-19"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 11,
+                "rank_date": "2013-01-24"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 35,
+                "rank_date": "2013-02-17"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 15,
+                "rank_date": "2013"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 3.97,
+        "rate_average_star": 40,
+        "rate_count": 1036,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 31,
+                "ratio": 2
+            },
+            {
+                "review_point": 2,
+                "count": 64,
+                "ratio": 6
+            },
+            {
+                "review_point": 3,
+                "count": 215,
+                "ratio": 20
+            },
+            {
+                "review_point": 4,
+                "count": 320,
+                "ratio": 30
+            },
+            {
+                "review_point": 5,
+                "count": 406,
+                "ratio": 39
+            }
+        ],
+        "review_count": "18",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ109294.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "ヒプノルーレット",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ110000/RJ109294_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2013-01-18 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ101764": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "765",
+        "wishlist_count": "428",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 10,
+                "rank_date": "2012-09-08"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 20,
+                "rank_date": "2012-09-13"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 106,
+                "rank_date": "2012"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.02,
+        "rate_average_star": 45,
+        "rate_count": 351,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 4,
+                "ratio": 1
+            },
+            {
+                "review_point": 2,
+                "count": 18,
+                "ratio": 5
+            },
+            {
+                "review_point": 3,
+                "count": 79,
+                "ratio": 22
+            },
+            {
+                "review_point": 4,
+                "count": 115,
+                "ratio": 32
+            },
+            {
+                "review_point": 5,
+                "count": 135,
+                "ratio": 38
+            }
+        ],
+        "review_count": "7",
+        "price": 1100,
+        "price_without_tax": 1000,
+        "price_str": "1,100",
+        "default_point_rate": 10,
+        "default_point": 100,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ101764.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "ヒプノパートナー",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ102000/RJ101764_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2012-09-07 00:00:00",
+        "locale_price": {
+            "en_US": 8.96,
+            "": 6.83,
+            "zh_TW": 255.81,
+            "zh_CN": 56.99,
+            "ko_KR": 10891
+        },
+        "locale_price_str": {
+            "en_US": "$8.96<i>&nbsp;USD</i>",
+            "": "6.83",
+            "zh_TW": "<i>NT$</i>255.81",
+            "zh_CN": "56.99<i>&nbsp;RMB</i>",
+            "ko_KR": "10,891<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "100"
+    },
+    "RJ100768": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "5026",
+        "wishlist_count": "2180",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 2,
+                "rank_date": "2012-08-25"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 2,
+                "rank_date": "2012-08-31"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 13,
+                "rank_date": "2012-09-21"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 5,
+                "rank_date": "2012"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 118,
+                "rank_date": "2018-10-11"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.19,
+        "rate_average_star": 45,
+        "rate_count": 2096,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 28,
+                "ratio": 1
+            },
+            {
+                "review_point": 2,
+                "count": 86,
+                "ratio": 4
+            },
+            {
+                "review_point": 3,
+                "count": 355,
+                "ratio": 16
+            },
+            {
+                "review_point": 4,
+                "count": 613,
+                "ratio": 29
+            },
+            {
+                "review_point": 5,
+                "count": 1014,
+                "ratio": 48
+            }
+        ],
+        "review_count": "33",
+        "price": 1320,
+        "price_without_tax": 1200,
+        "price_str": "1,320",
+        "default_point_rate": 10,
+        "default_point": 120,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ100768.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "ヒプノガストリップ",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ101000/RJ100768_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2012-08-25 00:00:00",
+        "locale_price": {
+            "en_US": 10.75,
+            "": 8.2,
+            "zh_TW": 306.98,
+            "zh_CN": 68.39,
+            "ko_KR": 13069
+        },
+        "locale_price_str": {
+            "en_US": "$10.75<i>&nbsp;USD</i>",
+            "": "8.20",
+            "zh_TW": "<i>NT$</i>306.98",
+            "zh_CN": "68.39<i>&nbsp;RMB</i>",
+            "ko_KR": "13,069<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "120"
+    },
+    "RJ089671": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "4477",
+        "wishlist_count": "1417",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2012-01-22"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 3,
+                "rank_date": "2012-01-25"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 16,
+                "rank_date": "2012-02-11"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 143,
+                "rank_date": "2012"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 3,
+                "rank_date": "2012"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 171,
+                "rank_date": "2018-10-11"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.26,
+        "rate_average_star": 45,
+        "rate_count": 1945,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 27,
+                "ratio": 1
+            },
+            {
+                "review_point": 2,
+                "count": 52,
+                "ratio": 2
+            },
+            {
+                "review_point": 3,
+                "count": 305,
+                "ratio": 15
+            },
+            {
+                "review_point": 4,
+                "count": 560,
+                "ratio": 28
+            },
+            {
+                "review_point": 5,
+                "count": 1001,
+                "ratio": 51
+            }
+        ],
+        "review_count": "35",
+        "price": 1100,
+        "price_without_tax": 1000,
+        "price_str": "1,100",
+        "default_point_rate": 10,
+        "default_point": 100,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ089671.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "カンスト",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ090000/RJ089671_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2012-01-21 00:00:00",
+        "locale_price": {
+            "en_US": 8.96,
+            "": 6.83,
+            "zh_TW": 255.81,
+            "zh_CN": 56.99,
+            "ko_KR": 10891
+        },
+        "locale_price_str": {
+            "en_US": "$8.96<i>&nbsp;USD</i>",
+            "": "6.83",
+            "zh_TW": "<i>NT$</i>255.81",
+            "zh_CN": "56.99<i>&nbsp;RMB</i>",
+            "ko_KR": "10,891<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "100"
+    },
+    "RJ088552": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "15044",
+        "wishlist_count": "3344",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2012-01-04"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 2,
+                "rank_date": "2012-01-10"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 2,
+                "rank_date": "2012-02-01"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 38,
+                "rank_date": "2012"
+            },
+            {
+                "term": "total",
+                "category": "all",
+                "rank": 148,
+                "rank_date": "2017-07-13"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 1,
+                "rank_date": "2012"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 10,
+                "rank_date": "2018-10-11"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.31,
+        "rate_average_star": 45,
+        "rate_count": 5994,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 93,
+                "ratio": 1
+            },
+            {
+                "review_point": 2,
+                "count": 176,
+                "ratio": 2
+            },
+            {
+                "review_point": 3,
+                "count": 832,
+                "ratio": 13
+            },
+            {
+                "review_point": 4,
+                "count": 1584,
+                "ratio": 26
+            },
+            {
+                "review_point": 5,
+                "count": 3309,
+                "ratio": 55
+            }
+        ],
+        "review_count": "83",
+        "price": 1100,
+        "price_without_tax": 1000,
+        "price_str": "1,100",
+        "default_point_rate": 10,
+        "default_point": 100,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ088552.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "まどろみ世界",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ089000/RJ088552_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2012-01-04 00:00:00",
+        "locale_price": {
+            "en_US": 8.96,
+            "": 6.83,
+            "zh_TW": 255.81,
+            "zh_CN": 56.99,
+            "ko_KR": 10891
+        },
+        "locale_price_str": {
+            "en_US": "$8.96<i>&nbsp;USD</i>",
+            "": "6.83",
+            "zh_TW": "<i>NT$</i>255.81",
+            "zh_CN": "56.99<i>&nbsp;RMB</i>",
+            "ko_KR": "10,891<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "100"
+    },
+    "RJ077055": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "3202",
+        "wishlist_count": "948",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 6,
+                "rank_date": "2011-05-07"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 9,
+                "rank_date": "2011-05-13"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 24,
+                "rank_date": "2011-06-04"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 6,
+                "rank_date": "2011"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 290,
+                "rank_date": "2018-10-11"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 3.98,
+        "rate_average_star": 40,
+        "rate_count": 1343,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 31,
+                "ratio": 2
+            },
+            {
+                "review_point": 2,
+                "count": 94,
+                "ratio": 6
+            },
+            {
+                "review_point": 3,
+                "count": 271,
+                "ratio": 20
+            },
+            {
+                "review_point": 4,
+                "count": 417,
+                "ratio": 31
+            },
+            {
+                "review_point": 5,
+                "count": 530,
+                "ratio": 39
+            }
+        ],
+        "review_count": "18",
+        "price": 1100,
+        "price_without_tax": 1000,
+        "price_str": "1,100",
+        "default_point_rate": 10,
+        "default_point": 100,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ077055.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "催の森",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ078000/RJ077055_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2011-05-06 00:00:00",
+        "locale_price": {
+            "en_US": 8.96,
+            "": 6.83,
+            "zh_TW": 255.81,
+            "zh_CN": 56.99,
+            "ko_KR": 10891
+        },
+        "locale_price_str": {
+            "en_US": "$8.96<i>&nbsp;USD</i>",
+            "": "6.83",
+            "zh_TW": "<i>NT$</i>255.81",
+            "zh_CN": "56.99<i>&nbsp;RMB</i>",
+            "ko_KR": "10,891<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "100"
+    },
+    "RJ067214": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "4640",
+        "wishlist_count": "1415",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2010-09-18"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 4,
+                "rank_date": "2010-09-23"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 15,
+                "rank_date": "2010-10-17"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 12,
+                "rank_date": "2010"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 127,
+                "rank_date": "2018-10-11"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.22,
+        "rate_average_star": 45,
+        "rate_count": 1846,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 25,
+                "ratio": 1
+            },
+            {
+                "review_point": 2,
+                "count": 67,
+                "ratio": 3
+            },
+            {
+                "review_point": 3,
+                "count": 287,
+                "ratio": 15
+            },
+            {
+                "review_point": 4,
+                "count": 565,
+                "ratio": 30
+            },
+            {
+                "review_point": 5,
+                "count": 902,
+                "ratio": 48
+            }
+        ],
+        "review_count": "29",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ067214.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "ヒプノタイマー",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ068000/RJ067214_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2010-09-17 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ064378": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "10944",
+        "wishlist_count": "2526",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 2,
+                "rank_date": "2010-07-12"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 5,
+                "rank_date": "2010-07-17"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 20,
+                "rank_date": "2010-08-08"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 160,
+                "rank_date": "2010"
+            },
+            {
+                "term": "total",
+                "category": "all",
+                "rank": 237,
+                "rank_date": "2016-06-22"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 6,
+                "rank_date": "2010"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 18,
+                "rank_date": "2018-10-11"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.25,
+        "rate_average_star": 45,
+        "rate_count": 4760,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 73,
+                "ratio": 1
+            },
+            {
+                "review_point": 2,
+                "count": 165,
+                "ratio": 3
+            },
+            {
+                "review_point": 3,
+                "count": 712,
+                "ratio": 14
+            },
+            {
+                "review_point": 4,
+                "count": 1367,
+                "ratio": 28
+            },
+            {
+                "review_point": 5,
+                "count": 2443,
+                "ratio": 51
+            }
+        ],
+        "review_count": "69",
+        "price": 1100,
+        "price_without_tax": 1000,
+        "price_str": "1,100",
+        "default_point_rate": 10,
+        "default_point": 100,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ064378.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "催眠ゲーム ～術師の挑戦～",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ065000/RJ064378_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2010-07-11 00:00:00",
+        "locale_price": {
+            "en_US": 8.96,
+            "": 6.83,
+            "zh_TW": 255.81,
+            "zh_CN": 56.99,
+            "ko_KR": 10891
+        },
+        "locale_price_str": {
+            "en_US": "$8.96<i>&nbsp;USD</i>",
+            "": "6.83",
+            "zh_TW": "<i>NT$</i>255.81",
+            "zh_CN": "56.99<i>&nbsp;RMB</i>",
+            "ko_KR": "10,891<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "100"
+    },
+    "RJ060348": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "8346",
+        "wishlist_count": "1915",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 4,
+                "rank_date": "2010-03-26"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 11,
+                "rank_date": "2010-03-31"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 22,
+                "rank_date": "2010-04-23"
+            },
+            {
+                "term": "year",
+                "category": "all",
+                "rank": 119,
+                "rank_date": "2010"
+            },
+            {
+                "term": "total",
+                "category": "all",
+                "rank": 327,
+                "rank_date": "2014-12-12"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 3,
+                "rank_date": "2010"
+            },
+            {
+                "term": "total",
+                "category": "voice",
+                "rank": 36,
+                "rank_date": "2018-10-11"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.14,
+        "rate_average_star": 45,
+        "rate_count": 2863,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 63,
+                "ratio": 2
+            },
+            {
+                "review_point": 2,
+                "count": 107,
+                "ratio": 3
+            },
+            {
+                "review_point": 3,
+                "count": 523,
+                "ratio": 18
+            },
+            {
+                "review_point": 4,
+                "count": 854,
+                "ratio": 29
+            },
+            {
+                "review_point": 5,
+                "count": 1316,
+                "ratio": 45
+            }
+        ],
+        "review_count": "29",
+        "price": 1210,
+        "price_without_tax": 1100,
+        "price_str": "1,210",
+        "default_point_rate": 10,
+        "default_point": 110,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ060348.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "リミットマリオネット",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ061000/RJ060348_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2010-03-25 00:00:00",
+        "locale_price": {
+            "en_US": 9.85,
+            "": 7.52,
+            "zh_TW": 281.4,
+            "zh_CN": 62.69,
+            "ko_KR": 11980
+        },
+        "locale_price_str": {
+            "en_US": "$9.85<i>&nbsp;USD</i>",
+            "": "7.52",
+            "zh_TW": "<i>NT$</i>281.40",
+            "zh_CN": "62.69<i>&nbsp;RMB</i>",
+            "ko_KR": "11,980<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "110"
+    },
+    "RJ056765": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "1099",
+        "wishlist_count": "413",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 8,
+                "rank_date": "2009-12-20"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 17,
+                "rank_date": "2009-12-25"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 87,
+                "rank_date": "2010-01-14"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 46,
+                "rank_date": "2009"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 4.14,
+        "rate_average_star": 45,
+        "rate_count": 474,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 10,
+                "ratio": 2
+            },
+            {
+                "review_point": 2,
+                "count": 13,
+                "ratio": 2
+            },
+            {
+                "review_point": 3,
+                "count": 90,
+                "ratio": 18
+            },
+            {
+                "review_point": 4,
+                "count": 151,
+                "ratio": 31
+            },
+            {
+                "review_point": 5,
+                "count": 210,
+                "ratio": 44
+            }
+        ],
+        "review_count": "8",
+        "price": 770,
+        "price_without_tax": 700,
+        "price_str": "770",
+        "default_point_rate": 10,
+        "default_point": 70,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ056765.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "調教愛催眠",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ057000/RJ056765_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2009-12-19 00:00:00",
+        "locale_price": {
+            "en_US": 6.27,
+            "": 4.78,
+            "zh_TW": 179.07,
+            "zh_CN": 39.9,
+            "ko_KR": 7624
+        },
+        "locale_price_str": {
+            "en_US": "$6.27<i>&nbsp;USD</i>",
+            "": "4.78",
+            "zh_TW": "<i>NT$</i>179.07",
+            "zh_CN": "39.90<i>&nbsp;RMB</i>",
+            "ko_KR": "7,624<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "70"
+    },
+    "RJ053461": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "1653",
+        "wishlist_count": "426",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 6,
+                "rank_date": "2009-09-16"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 23,
+                "rank_date": "2009-09-19"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 67,
+                "rank_date": "2009-10-15"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 19,
+                "rank_date": "2009"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 3.92,
+        "rate_average_star": 40,
+        "rate_count": 670,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 13,
+                "ratio": 1
+            },
+            {
+                "review_point": 2,
+                "count": 43,
+                "ratio": 6
+            },
+            {
+                "review_point": 3,
+                "count": 169,
+                "ratio": 25
+            },
+            {
+                "review_point": 4,
+                "count": 203,
+                "ratio": 30
+            },
+            {
+                "review_point": 5,
+                "count": 242,
+                "ratio": 36
+            }
+        ],
+        "review_count": "8",
+        "price": 770,
+        "price_without_tax": 700,
+        "price_str": "770",
+        "default_point_rate": 10,
+        "default_point": 70,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ053461.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "ヒプノレイン",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ054000/RJ053461_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2009-09-15 00:00:00",
+        "locale_price": {
+            "en_US": 6.27,
+            "": 4.78,
+            "zh_TW": 179.07,
+            "zh_CN": 39.9,
+            "ko_KR": 7624
+        },
+        "locale_price_str": {
+            "en_US": "$6.27<i>&nbsp;USD</i>",
+            "": "4.78",
+            "zh_TW": "<i>NT$</i>179.07",
+            "zh_CN": "39.90<i>&nbsp;RMB</i>",
+            "ko_KR": "7,624<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "70"
+    },
+    "RJ051403": {
+        "site_id": "maniax",
+        "site_id_touch": "maniaxtouch",
+        "maker_id": "RG09985",
+        "affiliate_deny": 0,
+        "dl_count": "2942",
+        "wishlist_count": "478",
+        "dl_format": 0,
+        "rank": [
+            {
+                "term": "day",
+                "category": "all",
+                "rank": 1,
+                "rank_date": "2009-07-22"
+            },
+            {
+                "term": "week",
+                "category": "all",
+                "rank": 5,
+                "rank_date": "2009-07-24"
+            },
+            {
+                "term": "month",
+                "category": "all",
+                "rank": 25,
+                "rank_date": "2009-08-13"
+            },
+            {
+                "term": "year",
+                "category": "voice",
+                "rank": 6,
+                "rank_date": "2009"
+            }
+        ],
+        "rate_average": 4,
+        "rate_average_2dp": 3.81,
+        "rate_average_star": 40,
+        "rate_count": 1100,
+        "rate_count_detail": [
+            {
+                "review_point": 1,
+                "count": 40,
+                "ratio": 3
+            },
+            {
+                "review_point": 2,
+                "count": 77,
+                "ratio": 7
+            },
+            {
+                "review_point": 3,
+                "count": 285,
+                "ratio": 25
+            },
+            {
+                "review_point": 4,
+                "count": 346,
+                "ratio": 31
+            },
+            {
+                "review_point": 5,
+                "count": 352,
+                "ratio": 32
+            }
+        ],
+        "review_count": "13",
+        "price": 660,
+        "price_without_tax": 600,
+        "price_str": "660",
+        "default_point_rate": 10,
+        "default_point": 60,
+        "product_point_rate": null,
+        "dlsiteplay_work": true,
+        "is_sale": true,
+        "on_sale": 1,
+        "is_discount": false,
+        "is_pointup": false,
+        "gift": [],
+        "is_rental": false,
+        "work_rentals": [],
+        "upgrade_min_price": 110,
+        "down_url": "https://www.dlsite.com/maniax/download/=/product_id/RJ051403.html",
+        "is_tartget": null,
+        "title_id": null,
+        "title_name": null,
+        "is_title_completed": false,
+        "bulkbuy_key": null,
+        "bonuses": [],
+        "is_limit_work": false,
+        "is_sold_out": false,
+        "limit_stock": 0,
+        "is_reserve_work": false,
+        "is_reservable": false,
+        "is_timesale": false,
+        "timesale_stock": 0,
+        "is_free": false,
+        "is_oly": false,
+        "is_led": false,
+        "translation_info": {
+            "is_translation_agree": false,
+            "is_volunteer": false,
+            "is_original": true,
+            "is_parent": false,
+            "is_child": false,
+            "original_workno": null,
+            "parent_workno": null,
+            "child_worknos": [],
+            "lang": null,
+            "production_trade_price_rate": 0
+        },
+        "work_name": "スンドメ",
+        "work_image": "//img.dlsite.jp/modpub/images2/work/doujin/RJ052000/RJ051403_img_main.jpg",
+        "sales_end_info": null,
+        "voice_pack": null,
+        "regist_date": "2009-07-21 00:00:00",
+        "locale_price": {
+            "en_US": 5.37,
+            "": 4.1,
+            "zh_TW": 153.49,
+            "zh_CN": 34.2,
+            "ko_KR": 6535
+        },
+        "locale_price_str": {
+            "en_US": "$5.37<i>&nbsp;USD</i>",
+            "": "4.10",
+            "zh_TW": "<i>NT$</i>153.49",
+            "zh_CN": "34.20<i>&nbsp;RMB</i>",
+            "ko_KR": "6,535<i>&nbsp;원</i>"
+        },
+        "work_type": "SOU",
+        "is_pack_work": false,
+        "default_point_str": "60"
+    }
+}

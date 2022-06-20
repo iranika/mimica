@@ -15,5 +15,6 @@ export default {
     Mixn: 'トム×ブラウン',
     Bookmarklet: 'ブックマークレットBOX',
     Logout: 'ログアウト',
-    'sign in': 'サインイン'
+    'sign in': 'サインイン',
+    Higuchi: 'Higuchi'
 };

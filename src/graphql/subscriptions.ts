@@ -2,27 +2,174 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const onCreateMimiCa = /* GraphQL */ `
-  subscription OnCreateMimiCa($id: ID, $title: String) {
-    onCreateMimiCa(id: $id, title: $title) {
+export const onCreateRenkaList = /* GraphQL */ `
+  subscription OnCreateRenkaList($owner: String) {
+    onCreateRenkaList(owner: $owner) {
       id
-      title
+      auther
+      text
+      category
+      date
+      UserDashbordModel {
+        id
+        name
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      renkaListUserDashbordModelId
+      owner
     }
   }
 `;
-export const onUpdateMimiCa = /* GraphQL */ `
-  subscription OnUpdateMimiCa($id: ID, $title: String) {
-    onUpdateMimiCa(id: $id, title: $title) {
+export const onUpdateRenkaList = /* GraphQL */ `
+  subscription OnUpdateRenkaList($owner: String) {
+    onUpdateRenkaList(owner: $owner) {
       id
-      title
+      auther
+      text
+      category
+      date
+      UserDashbordModel {
+        id
+        name
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      renkaListUserDashbordModelId
+      owner
     }
   }
 `;
-export const onDeleteMimiCa = /* GraphQL */ `
-  subscription OnDeleteMimiCa($id: ID, $title: String) {
-    onDeleteMimiCa(id: $id, title: $title) {
+export const onDeleteRenkaList = /* GraphQL */ `
+  subscription OnDeleteRenkaList($owner: String) {
+    onDeleteRenkaList(owner: $owner) {
       id
-      title
+      auther
+      text
+      category
+      date
+      UserDashbordModel {
+        id
+        name
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      renkaListUserDashbordModelId
+      owner
+    }
+  }
+`;
+export const onCreateUserDashbordModel = /* GraphQL */ `
+  subscription OnCreateUserDashbordModel {
+    onCreateUserDashbordModel {
+      id
+      name
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+  }
+`;
+export const onUpdateUserDashbordModel = /* GraphQL */ `
+  subscription OnUpdateUserDashbordModel {
+    onUpdateUserDashbordModel {
+      id
+      name
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+  }
+`;
+export const onDeleteUserDashbordModel = /* GraphQL */ `
+  subscription OnDeleteUserDashbordModel {
+    onDeleteUserDashbordModel {
+      id
+      name
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+  }
+`;
+export const onCreateMileyPersonModel = /* GraphQL */ `
+  subscription OnCreateMileyPersonModel {
+    onCreateMileyPersonModel {
+      id
+      name
+      kana
+      born
+      rip
+      job
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+  }
+`;
+export const onUpdateMileyPersonModel = /* GraphQL */ `
+  subscription OnUpdateMileyPersonModel {
+    onUpdateMileyPersonModel {
+      id
+      name
+      kana
+      born
+      rip
+      job
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+  }
+`;
+export const onDeleteMileyPersonModel = /* GraphQL */ `
+  subscription OnDeleteMileyPersonModel {
+    onDeleteMileyPersonModel {
+      id
+      name
+      kana
+      born
+      rip
+      job
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
     }
   }
 `;

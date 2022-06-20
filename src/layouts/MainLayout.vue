@@ -92,6 +92,20 @@ const linksList = [
     disable: false
   },
   {
+    title: 'Higuchi' ,
+    caption: '',
+    icon: 'create',
+    link: 'Aegi',
+    disable: false
+  },
+  {
+    title: 'Renka' ,
+    caption: '',
+    icon: 'create',
+    link: 'renka',
+    disable: false
+  },
+  {
     title: 'Bookmarklet' ,
     caption: 'Bookmarklet',
     icon: 'bookmark',
@@ -141,7 +155,13 @@ const linksList = [
     icon: 'help',
     link: 'help',
     disable: true
-
+  },
+  {
+    title: 'contact',
+    caption: 'chat.quasar.dev',
+    icon: 'help',
+    link: 'contact',
+    disable: false
   },
 ];
 
