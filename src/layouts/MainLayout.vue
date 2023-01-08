@@ -88,56 +88,63 @@ const linksList = [
     title: 'Mixn' ,
     caption: '',
     icon: 'create',
-    link: 'mixn',
+    link: '/mixn',
     disable: false
   },
   {
-    title: 'Higuchi' ,
+    title: 'Aegi' ,
     caption: '',
     icon: 'create',
-    link: 'Aegi',
+    link: '/Aegi',
     disable: false
   },
   {
-    title: 'Renka' ,
+    title: 'SDLS' ,
     caption: '',
     icon: 'create',
-    link: 'renka',
+    link: '/sdls',
     disable: false
   },
   {
     title: 'Bookmarklet' ,
     caption: 'Bookmarklet',
     icon: 'bookmark',
-    link: 'bookmarklet',
+    link: '/bookmarklet',
     disable: false
   },
   {
     title: 'KC' ,
     caption: 'KC',
     icon: 'bookmark',
-    link: 'kc',
+    link: '/kc',
     disable: false
   },
   {
     title: 'MEditor' ,
     caption: 'MEditor',
     icon: 'create',
-    link: 'meditor',
+    link: '/meditor',
     disable: false
+  },
+  {
+    title: 'Renka' ,
+    caption: '',
+    icon: 'create',
+    link: '/renka',
+    disable: true
   },
   {
     title: 'createDeck' ,
     caption: 'github.com/quasarframework',
     icon: 'create',
-    link: 'create-deck',
+    link: '/create-deck',
     disable: true
   },
   {
     title: 'myDecks' ,
     caption: 'github.com/quasarframework',
     icon: 'book',
-    link: 'mydeck',
+    link: '/mydeck',
     disable: true
 
   },
@@ -145,7 +152,7 @@ const linksList = [
     title: 'favorite',
     caption: 'chat.quasar.dev',
     icon: 'star',
-    link: 'favorite',
+    link: '/favorite',
     disable: true
 
   },
@@ -153,14 +160,14 @@ const linksList = [
     title: 'help',
     caption: 'chat.quasar.dev',
     icon: 'help',
-    link: 'help',
+    link: '/help',
     disable: true
   },
   {
     title: 'contact',
     caption: 'chat.quasar.dev',
     icon: 'help',
-    link: 'contact',
+    link: '/contact',
     disable: false
   },
 ];

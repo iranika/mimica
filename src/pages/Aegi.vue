@@ -43,11 +43,11 @@
 // eslint-disable-next-line
 //import { randomInt } from 'crypto';
 //import {TokenizerBuilder} from "kuromoji";
-import kuromoji from 'kuromoji';
-import { useQuasar } from 'quasar';
+//import kuromoji from 'kuromoji';
+//import { useQuasar } from 'quasar';
 import { defineComponent, ref } from 'vue';
-import { MixnStore } from 'src/store/mixn';
-import { SpreadSheetInfo } from 'src/store/mixn';
+//import { MixnStore } from 'src/store/mixn';
+//import { SpreadSheetInfo } from 'src/store/mixn';
 import { Aegi } from 'src/store/utils/Aegi';
 
 export default defineComponent({
@@ -57,7 +57,7 @@ export default defineComponent({
   },
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   setup(){
-    const $q = useQuasar();
+    //const $q = useQuasar();
     const text = ref('しもたけ先生はえっちじゃないよ！');
     const resultText = ref('');
 
@@ -66,10 +66,10 @@ export default defineComponent({
     };
 
     // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-    const builder = kuromoji.builder({ dicPath: '/dict' });
+    //const builder = kuromoji.builder({ dicPath: '/dict' });
 
     function GenerateAegiText() {
-      resultText.value = (new Aegi(text.value)).AegiText
+      resultText.value = (new Aegi(text.value)).genAegiText()
       /*
       builder.build((_, tokenizer) => {
         $q.loading.show();

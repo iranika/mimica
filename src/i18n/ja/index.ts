@@ -16,5 +16,10 @@ export default {
     Bookmarklet: 'ブックマークレットBOX',
     Logout: 'ログアウト',
     'sign in': 'サインイン',
-    Higuchi: 'Higuchi'
+    Higuchi: 'Higuchi',
+    Aegi: 'あえぎ',
+    SDLS: 'URL転送くん',
+    Renka: '道草恋歌',
+    contact: '連絡先',
+    'あえぎ': 'あえぎ'
 };

@@ -23,7 +23,8 @@
             DLsiteの作品ページから直接BoothやFanzaでタイトル検索ページにタイトルを入れて検索してくれるやつです。<br>
           </template>
           <template v-slot:bml-field>
-            <a :href="SearchBooth">このリンクをドラッグ＆ドロップするか下記をブックマークに登録ください。</a>
+            <div>リンクをドラッグ＆ドロップするかスクリプトをブックマークに登録ください。</div>
+            <a :href="SearchBooth">SearchBooth</a>
             <q-field class="bml-field" stack-label label="Go to Booth">
               <template v-slot:control>
                 <div class="full-width">
@@ -35,13 +36,14 @@
               </template>
             </q-field>
             <br>
-            <a :href="SearchFanza">このリンクをドラッグ＆ドロップするか下記をブックマークに登録ください。</a>
+            <div>リンクをドラッグ＆ドロップするかスクリプトをブックマークに登録ください。</div>
+            <a :href="SearchFanza">SearchFanza</a>
             <q-field class="bml-field" stack-label label="Go to Fanza">
               <template v-slot:control>
                 <div class="full-width">
                   {{ SearchFanza }}
                 </div>
-                </template>
+              </template>
               <template v-slot:before>
                 <q-btn flat icon="content_copy" @click="copy(SearchFanza)"></q-btn>
               </template>
@@ -52,6 +54,41 @@
         <BookmarkletComponent :Bookmarklet="OpenGiftPage" Title="Open Gift Page" HeaderClass="text-h6">
           <template v-slot:description>
             DLsiteで購入済みの作品ページから直接ギフトページを開くやつです<br>
+          </template>
+          <template v-slot:bml-field>
+            <div>リンクをドラッグ＆ドロップするかスクリプトをブックマークに登録ください。</div>
+            <a :href="SearchBooth">OpenGiftPage</a>
+            <q-field class="bml-field" stack-label label="Go to Fanza">
+              <template v-slot:control>
+                <div class="full-width">
+                  {{ OpenGiftPage }}
+                </div>
+              </template>
+              <template v-slot:before>
+                <q-btn flat icon="content_copy" @click="copy(OpenGiftPage)"></q-btn>
+              </template>
+            </q-field>
+          </template>
+        </BookmarkletComponent>
+        <BookmarkletComponent :Bookmarklet="SDLSBrowseNow" Title="DLsite転送くん(SDLS)" HeaderClass="text-h6">
+          <template v-slot:description>
+            URL転送くんを使ってDLsiteのリンクをシャドウバンから守るためのBrowseNowです<br>
+            BrowseNowと同様に見ているページのリンクを呟けます。<br>
+            DLsiteへのリンクはmimica経由で転送するよう置換されます。<br>
+          </template>
+          <template v-slot:bml-field>
+            <div>リンクをドラッグ＆ドロップするかスクリプトをブックマークに登録ください。</div>
+            <a :href="SDLSBrowseNow">SDLS</a>
+            <q-field class="bml-field" stack-label label="">
+              <template v-slot:control>
+                <div class="full-width">
+                  {{ SDLSBrowseNow }}
+                </div>
+              </template>
+              <template v-slot:before>
+                <q-btn flat icon="content_copy" @click="copy(SDLSBrowseNow)"></q-btn>
+              </template>
+            </q-field>
           </template>
         </BookmarkletComponent>
       </q-card-section>
@@ -78,6 +115,8 @@ import BrowseNowText from '!!raw-loader!./bookmarklet/BrowseNowRIP.txt';
 import SearchBooth from '!!raw-loader!./bookmarklet/SearchBooth.txt';
 import SearchFanza from '!!raw-loader!./bookmarklet/SearchFanza.txt';
 import OpenGiftPage from '!!raw-loader!./bookmarklet/OpenGiftPage.txt';
+import SDLSBrowseNow from '!!raw-loader!./bookmarklet/SDLSBrowseNow.txt';
+import SDLSBrowseNowAF from '!!raw-loader!./bookmarklet/SDLSBrowseNowAF.txt';
 
 
 export default defineComponent({
@@ -97,7 +136,8 @@ export default defineComponent({
       SearchBooth,
       SearchFanza,
       OpenGiftPage,
-
+      SDLSBrowseNow,
+      SDLSBrowseNowAF
     }
   }
 })

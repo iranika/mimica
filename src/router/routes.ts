@@ -14,7 +14,13 @@ const routes: RouteRecordRaw[] = [
       { path: 'signin', component: () => import('pages/Signin.vue') },
       { path: 'contact', component: () => import('pages/Contact.vue') },
       { path: 'renka', component: () => import('pages/Renka.vue') },
-      
+      { path: 'sdls',
+        component: () => import('pages/SDLS.vue'),
+        props: (route: { query: { link: string} }) => ({
+          // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+          url: route.query.link
+        })
+      }
       //{ path: 'pay', component: () => import('pages/pay.vue') }
     ],
   },

@@ -17,5 +17,7 @@ export default {
   KC: 'KC',
   'MEditor': 'Meditor',
   Higuchi: 'Higuchi',
-  contact: 'Contact'
+  contact: 'Contact',
+  Aegi: 'Aegi',
+  SDLS: 'Safety DLsite'
 };

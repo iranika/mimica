@@ -4,7 +4,8 @@
       <div v-bind:class="HeaderClass" style="margin: 10px auto 10px auto;">{{ Title }}</div>
       <slot name="description"></slot>
       <slot name="bml-field" >
-        <a :href="Bookmarklet">このリンクをドラッグ＆ドロップするか下記をブックマークに登録ください。</a>
+        <div>リンクをドラッグ＆ドロップするか下記をブックマークに登録ください。</div>
+        <a :href="Bookmarklet">BrowseNowRIP</a>
         <q-field class="bml-field" stack-label label="script">
           <template v-slot:before>
             <q-btn flat  icon="content_copy" @click="copy(Bookmarklet)"></q-btn>
